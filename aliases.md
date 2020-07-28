@@ -6,7 +6,7 @@ Discord users `@Croebh#5603` and `@Nerds and Dragons#2817` have embraced OTFBM a
 
 Avrae is a Discord bot centered around D&D 5e.  It also has a built in automation and scripting engine.  For more information on the bot please visit their website: https://avrae.io
 
-## Map, Move, and Over aliases
+## Map and Move aliases
 
 To get the code for the aliases please join the OTFBM discord at: https://discord.gg/PVCtMqN
 
