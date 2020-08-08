@@ -12,5 +12,15 @@ Maps provided by callers are expected to meet the following requirements:
 
 _**Example - Background**_
 ```
-http://otfbm.com/E7p-Zombie/I3p-Zombie?bg=https://i.imgur.com/k99s0ch.jpg
+http://otfbm.io/E7p-Zombie/I3p-Zombie?bg=https://i.imgur.com/k99s0ch.jpg
 ```
+
+**NOTE** - At this time there is a 1MB size limit to background images.
+
+## Simple guide to making maps work with otfbm
+
+Using software like Photoshop or GIMP:
+
+* crop the image to top left/bottom right squares
+* Count the number of squares wide and tall
+* Resize the image to squares x 40 pixels

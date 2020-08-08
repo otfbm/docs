@@ -11,5 +11,5 @@ You can specify additional drawing options by providing the following parameters
 *Example* - A map drawn with a darker background and no gridlines, with a zoom value of 2, with a token in the top left corner.
 
 ```
-https://otfbm.com/@2dn/A1
+https://otfbm.io/@2dn/A1
 ```
