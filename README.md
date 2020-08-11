@@ -4,7 +4,7 @@ The "On The Fly Battle Maps" website is located at `http://otfbm.io`, try [this 
 
 You can find information on how to use the site by visiting our [documentation site](http://docs.otfbm.io).
 
-To join our community or get hold of Avrae aliases, click [this Discord link](https://discord.gg/PVCtMqN)
+To join our community or get hold of Avrae aliases, click [this Discord link](https://discord.gg/vdskRBp)
 
 ## Contributing to On The Fly Battle Maps
 

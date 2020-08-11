@@ -8,7 +8,7 @@ Avrae is a Discord bot centered around D&D 5e.  It also has a built in automatio
 
 ## Map and Move aliases
 
-To get the code for the aliases please join the OTFBM discord at: https://discord.gg/PVCtMqN
+To get the code for the aliases please join the OTFBM discord at: https://discord.gg/vdskRBp
 
 Run the following commands in the `#command-spam` channel on the OTFBM discord:
 
