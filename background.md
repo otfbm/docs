@@ -1,26 +1,49 @@
 # Background Images
 
-You can add images to your battle map by providing a link to an external image.
 
-**Custom Backgrounds**
-Callers can add custom backgrounds to their maps by providing the image's url in the map request.
+## The basics
 
-Maps provided by callers are expected to meet the following requirements:
+You can add custom background images to your map by providing a link to an external image with the query parameter `bg`
 
-* Maps are expected to have a grid scale of 40 px
-* Maps are expected to be fitted to the grid size requested in the url. So if a map is 23x12, then the caller is expected to provide a size of 23x12 when making a map request.
+### Example
 
-_**Example - Background**_
 ```
-http://otfbm.io/E7p-Zombie/I3p-Zombie?bg=https://i.imgur.com/k99s0ch.jpg
+http://otfbm.io?bg=https://i.imgur.com/k99s0ch.jpg
 ```
 
-**NOTE** - At this time there is a 1MB size limit to background images.
+## Maps defaults:
 
-## Simple guide to making maps work with otfbm
+* The maps grid defaults to a grid scale of `40px`
+* Maps assume that the grid of an image starts in the very top left corner
 
-Using software like Photoshop or GIMP:
+## Setting up OTFBM backgrounds
 
-* crop the image to top left/bottom right squares
-* Count the number of squares wide and tall
-* Resize the image to squares x 40 pixels
+When the defaults do not apply to the background image you are using, you can adjust the position and grid scale to line things up.
+
+### Adjusting the gridsize
+
+Adjust the gridsize of the map (in pixels) using the map option `c`. (for cell)
+
+#### Example 
+
+To set a gridsize of `50px` use the option `@c50`
+
+```
+http://otfbm.io/@c50
+```
+
+### Adjusting the background image position
+
+When the grid does not start in the top left corner of the background image, you can push the background image around so that it does. This is specified as an x,y coordinate offset in pixels using the map option `o` (for offset)
+
+#### Example
+
+To move the background image by `30px` to the left and `20px` up, use the map option `@o30:20`
+
+```
+http://otfbm.io/@o30:20
+```
+
+### Image Size Limits
+
+Currently, there is a 1mb background image size limit. We hope to raise this in future once we have optimised the way we handle things. If you run into this issue, we recommend converting your image from png to jpeg and/or resizing the image you want to use. If you found this image somewhere on the web. Download it, use an image editing program like Photoshop or Gimp to create a file that is under 1mb, upload it to Discord somewhere and copy the URL to use with OTFBM.
