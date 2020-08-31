@@ -5,7 +5,7 @@ If you're running the `!map` alias for the first time this is where you should s
 > **Disclaimer**
 This guide assumes you know the basic `!init` functions of Avrae: how to start an encounter, add monsters, add combatants, and generally run a combat. If you don't you can head over to [Avrae's documentation](https://avrae.readthedocs.io/en/latest/) to find out how.
 
-## 1. Starting inintiative and setting up the map
+## 1. Starting initiative and setting up the map
 
 First up, we start the initiative by typing the command:
 
@@ -13,7 +13,7 @@ First up, we start the initiative by typing the command:
 !init begin
 ```
 
-Once that is done, we need to add a character to the initiative order to whom we're going to attach the map. We recommend adding a dedicated character for this, instead of a player or a monster, to prevent the map from vanishing when a player exits combat or a monster is killed.
+Once that is done, we need to add a character to the initiative order to whom we're going to attach the map. We recommend adding a dedicated character for this, instead of a player or a monster, to prevent the map from vanishing when a player exits combat, or a monster is killed.
 
 So our character is going to be called `DM`, but it can be called anything you want, `Map`, `Lair`, `Whatever`. And we’re going to set its initiative at 20 so it can also be used for Lair Actions, if needed:
 
@@ -31,7 +31,7 @@ Without attaching a map to a character, every time you run the `!map` command th
 
 ## 2. Customizing the map
 
-Now that you have a map going you're probably thinking that the default 10x10 grid isn't big enough. And you're right, we need to go bigger! So let's try making it a 26x14 grid instead:
+Now that you have a map going, you're probably thinking that the default 10x10 grid isn't big enough. And you're right, we need to go bigger! So, let's try making it a 26x14 grid instead:
 
 ```
 !map -mapsize 26x14
