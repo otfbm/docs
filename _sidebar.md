@@ -10,3 +10,7 @@
 - Avrae and OTFBM
 
   - [Aliases](aliases.md)
+
+- Guides
+
+  - [Getting Started](guides_getting_started.md)
