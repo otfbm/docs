@@ -43,11 +43,9 @@ Great, but it’s still a bland white background. Let's spice things up by addin
 !map -mapbg https://i.imgur.com/WnTUKcJ.jpg 
 ```
 
-Looking better. You can add any background you like provided you adhere to some requirements. The image needs to:
-- line up with a 40px by 40px grid or things will be cropped;
-- **be smaller than 1MB**.
+Looking better. You can add any background you like provided the image lines up with a 40 by 40 pixel grid or it will be cropped.
 
-Sweet. So now we have the map anchored to a character, set to a good size, and with a custom background. That’s a lot of commands to run separately. Luckily, you can use all those arguments on the same command instead:
+Sweet. So now we have the map anchored to the initiative through a specific character, set to a good size, and with a custom background. That’s a lot of commands to run separately. Luckily, you can use all those arguments on the same command instead:
 
 ```
 !map -mapattach DM -mapsize 26x14 -mapbg https://i.imgur.com/WnTUKcJ.jpg
@@ -55,7 +53,7 @@ Sweet. So now we have the map anchored to a character, set to a good size, and w
 
 ## 3. Adding combatants to the map
 
-In the final step we're going to be adding some Goblins to the map. First you need to add them to the initiative order:
+Finally, we're going to be adding some monsters to the map. Three Goblins, to make it more interesting. But first we need to add them to the initiative order:
 
 ```
 !init madd Goblin -n 3
@@ -75,8 +73,8 @@ Three colourful tokens should have appeared. Notice that the `-move` argument, a
 !map -t GO2 -move g3
 ```
 
-Tada! The token should have moved to the new location, with an arrow showing where it came from.
+Tada! The token is now in its new location, with an arrow showing where it came from to boot.
 
-Like monsters you can add your players to the map. Have them `!i join` the initiative order and place them on the map using their names.
+Like monsters you can add your players to the map. Have them `!init join` the initiative order and place them on the map using their names, just like we did with the Goblins.
 
 Congratulations, you now know the basics of how to run an encounter using the `!map` alias! Looking to up your `!map` game? Read the [Advanced guides]().
