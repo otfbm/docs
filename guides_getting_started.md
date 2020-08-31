@@ -1,6 +1,6 @@
 # Getting Started
 
-If you're running the `!map` alias for the first time this is where you should start. 
+If you're running the `!map` alias for the first time look no further. This guide will teach you how to set up a map, customize it, place characters as tokens, and move them. Check the [Advanced Guides]() if you've already got a handle on the `!map` alias.
 
 > **Disclaimer**
 This guide assumes you know the basic `!init` functions of Avrae: how to start an encounter, add monsters, add combatants, and generally run a combat. If you don't you can head over to [Avrae's documentation](https://avrae.readthedocs.io/en/latest/) to find out how.
@@ -55,7 +55,7 @@ Sweet. So now we have the map anchored to a character, set to a good size, and w
 
 ## 3. Adding combatants to the map
 
-In the final step we're going to be adding some Goblins to the map. First you need to add them to initiative order:
+In the final step we're going to be adding some Goblins to the map. First you need to add them to the initiative order:
 
 ```
 !init madd Goblin -n 3
@@ -77,6 +77,6 @@ Three colourful tokens should have appeared. Notice that the `-move` argument, a
 
 Tada! The token should have moved to the new location, with an arrow showing where it came from.
 
-Like monsters you can add your players to the map. Have them `!i join` the initiative order and place them on the map.
+Like monsters you can add your players to the map. Have them `!i join` the initiative order and place them on the map using their names.
 
-Congratulations, you now know the basics of how to run an encounter using the `!map` alias!
+Congratulations, you now know the basics of how to run an encounter using the `!map` alias! Looking to up your `!map` game? Read the [Advanced guides]().
