@@ -13,7 +13,7 @@ First up, we start the initiative by typing the command:
 !init begin
 ```
 
-Once that is done, we need to add a character to the initiative order to whom we're going to attach the map. We recommend adding a dedicated character for this, instead of a player or a monster, to prevent the map from vanishing when a player exits combat, or a monster is killed.
+Once that is done, we need to add a character to the initiative order onto whom we're going to attach the map. We recommend adding a dedicated character for this, instead of a player or a monster, to prevent the map from vanishing when a player exits combat, or a monster is killed.
 
 So our character is going to be called `DM`, but it can be called anything you want, `Map`, `Lair`, `Whatever`. And we’re going to set its initiative at 20 so it can also be used for Lair Actions, if needed:
 
