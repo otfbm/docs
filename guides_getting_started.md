@@ -7,7 +7,7 @@ This guide assumes you know the basic `!init` functions of Avrae: how to start a
 
 ## 1. Starting initiative and setting up the map
 
-First up, we start the initiative by typing the command:
+First up, we enter initiative by typing the command:
 
 ```
 !init begin
