@@ -24,17 +24,17 @@ https://otfbm.io/_B3J3_B6J6
 
 ## Doors
 
-You can add doors with following characters:  
+You can add doors with following codes:  
 
-`-` open door,  
-`]` closed door,  
-`[` double door,  
-`$` secret door  
+`-o` open door,  
+`-d` closed door,  
+`-b` double door,  
+`-s` secret door  
 
 Here is a complex example:
 
 **Example**
 
 ```
-https://otfbm.io/_B2G2G4H4[H6G6G8$F9E10]C10B10B2_B6-G6
+https://otfbm.io/_B2G2G4H4-dH6G6G8-sF9E10-bC10B10B2_B6-oG6
 ```
