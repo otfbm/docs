@@ -45,7 +45,7 @@ Great, but it’s still a bland white background. Let's spice things up by addin
 
 Looking better. You can add any background you like provided the image lines up with a 40 by 40 pixel grid or it will be cropped.
 
-Sweet. So now we have the map anchored to the initiative through a specific character, set to a good size, and with a custom background. That’s a lot of commands to run separately. Luckily, you can use all those arguments on the same command instead:
+Sweet. So now we have the map anchored to the initiative order through a specific combatant, set to a good size, and with a custom background. That’s a lot of commands to run separately. Luckily, you can use all those arguments on the same command instead:
 
 ```
 !map -mapattach DM -mapsize 26x14 -mapbg https://i.imgur.com/WnTUKcJ.jpg
