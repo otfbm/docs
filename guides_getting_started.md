@@ -43,7 +43,9 @@ Great, but it’s still a bland white background. Let's spice things up by addin
 !map -mapbg https://i.imgur.com/WnTUKcJ.jpg 
 ```
 
-Looking better. You can add any background you like provided the image lines up with a 40 by 40 pixel grid or it will be cropped.
+Looking better. You can add any background you like with the following caveats:
+- images larger than 1MB may be resized or lose resolution unit they're reduced to that file size;
+- since the default grid size is 40px by 40px the background image might not line up. If that's the case, check out our [Advanced Guides]() to find out how to change the grid size or offset the background image.
 
 Sweet. So now we have the map anchored to the initiative order through a specific combatant, set to a good size, and with a custom background. That’s a lot of commands to run separately. Luckily, you can use all those arguments on the same command instead:
 
