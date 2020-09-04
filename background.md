@@ -58,7 +58,7 @@ The following can be used as a background as shown below
 
 **Ship Foredeck** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/5ODcwpV.jpg`  
 
-**Ship Maindeck** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/9aG2VlY.jpg`  
+**Ship Maindeck** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/YlPvZzZ.jpg`  
 
 **Ship Upperdeck** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/NM5qPmS.jpg`  
 
