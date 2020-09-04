@@ -44,6 +44,48 @@ To move the background image by `30px` to the left and `20px` up, use the map op
 http://otfbm.io/@o30:20
 ```
 
-### Image Size Limits
+## Background Maps from DynamicDungeons
+A super cool artist has allowed us to use some of his maps. please check out thier Patreon at the link below.
+```
+https://www.patreon.com/dynamicdungeons
+```
 
-Currently, there is a 1mb background image size limit. We hope to raise this in future once we have optimised the way we handle things. If you run into this issue, we recommend converting your image from png to jpeg and/or resizing the image you want to use. If you found this image somewhere on the web. Download it, use an image editing program like Photoshop or Gimp to create a file that is under 1mb, upload it to Discord somewhere and copy the URL to use with OTFBM.
+The following can be used as a background as shown below
+
+**Forest** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/9aG2VlY.jpg`  
+
+**Desert** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/65k1rE4.jpg`  
+
+**Ship Foredeck** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/5ODcwpV.jpg`  
+
+**Ship Maindeck** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/9aG2VlY.jpg`  
+
+**Ship Upperdeck** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/NM5qPmS.jpg`  
+
+**Winter Forest** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/Kiasj9W.jpg`  
+
+**Market Square** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/FJd0Iv0.jpg`  
+
+**Basic Dungeon Floor** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/mxbQmxY.jpg`  
+
+**Graveyard** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/z3vLqEQ.jpg`  
+
+**Haunted Cementary** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/HQl9k5o.jpg`  
+
+**Haunted Cathedral** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/5faalf2.jpg`  
+
+**Grassy Field** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/Zx2jHDC.jpg`  
+
+**Dragons Lair** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/PplwMVB.jpg`  
+
+**Rocky Path** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/O2tMCFC.jpg`  
+
+**Cellar** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/BhA8JQs.jpg`  
+
+**Main Floor Inn** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/jIpAjkT.jpg`  
+
+**City Jail** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/Eh3IEQb.jpg`  
+
+**Boat** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/9aYJJ3u.jpg`  
+
+**Underground Fight Pit** - `https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/WgZSt8g.jpg`  

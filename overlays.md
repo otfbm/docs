@@ -41,3 +41,8 @@ http://otfbm.io/*s30ca1b2
 `*s` square `30` size `c` _colour_ `a1` start co-ordinate `b2` direction co-ordinate  
 
 Alternatively use `*st` to anchor the square at the top left. (Or don't specify the direction co-ordinate.)
+
+```
+http://otfbm.io/*a10pD3E5
+```
+`*a` arrow `10` size `p` _colour_ `d3` start co-ordinate `e5` direction co-ordinate  
