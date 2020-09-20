@@ -1,6 +1,7 @@
 - How to Use OTFBM
 
   - [Basic Information](/)
+  - [The Grid](view.md)
   - [Tokens](tokens.md)
   - [Background images](background.md)
   - [Walls and Doors](wallsanddoors.md)
