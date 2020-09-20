@@ -5,7 +5,7 @@ If you're running the `!map` alias for the first time look no further. This guid
 > **Disclaimer**
 This guide assumes you know the basic `!init` functions of Avrae: how to start an encounter, add monsters, add combatants, and generally run a combat. If you don't you can head over to [Avrae's documentation](https://avrae.readthedocs.io/en/latest/) to find out how.
 
-## 1. Starting initiative and setting up the map
+## 1. Starting initiative and adding our map as a combatant
 
 First up, we enter initiative by typing the command:
 
@@ -13,23 +13,21 @@ First up, we enter initiative by typing the command:
 !init begin
 ```
 
-Once that is done, we need to add a character to the initiative order onto whom we're going to attach the map. We recommend adding a dedicated character for this, instead of a player or a monster, to prevent the map from vanishing when a player exits combat, or a monster is killed.
+Once that is done, we need to add a combatant to the initiative order onto whom the map is going to be automatically attached. Attaching a map allows every change that's made to it to be saved. We recommend adding a dedicated combatant for this, instead of a player or a monster, to prevent the map from vanishing when a player exits combat, or a monster is killed.
 
-So our character is going to be called `DM`, but it can be called anything you want, `Map`, `Lair`, `Whatever`. And we’re going to set its initiative at 20 so it can also be used for Lair Actions, if needed:
+So our combatant is going to be called `DM`, but it can also be `Map`. Either name triggers the automatic attachment of the map. And we’re going to set its initiative at 20 so it can also be used for Lair Actions, if needed:
 
 ```
 !i add 0 DM -p 20
 ```
 
-Next, we're going to attach the map itself to our `DM` character, to bring it up:
+## 2. Launching the map and customizing it
+
+Next, we're going to bring up the map:
 
 ```
-!map -mapattach DM
+!map
 ```
-
-Without attaching a map to a character, every time you run the `!map` command the previous changes or settings are lost and the map reverts to its default. This way everything is saved.
-
-## 2. Customizing the map
 
 Now that you have a map going, you're probably thinking that the default 10x10 grid isn't big enough. And you're right, we need to go bigger! So, let's try making it a 26x14 grid instead:
 
