@@ -8,8 +8,10 @@ You can add custom background images to your map by providing a link to an exter
 ### Example
 
 ```
-http://otfbm.io?bg=https://i.imgur.com/k99s0ch.jpg
+https://otfbm.io/10x10?bg=https://i.imgur.com/k99s0ch.jpg
 ```
+
+![](https://otfbm.io/10x10?bg=https://i.imgur.com/k99s0ch.jpg)
 
 ## Maps defaults:
 
@@ -32,6 +34,8 @@ To set a gridsize of `50px` use the option `@c50`
 http://otfbm.io/@c50
 ```
 
+![](http://otfbm.io/@c50)
+
 ### Adjusting the background image position
 
 When the grid does not start in the top left corner of the background image, you can push the background image around so that it does. This is specified as an x,y coordinate offset in pixels using the map option `o` (for offset)
@@ -49,6 +53,14 @@ A super cool artist has allowed us to use some of his maps. please check out thi
 ```
 https://www.patreon.com/dynamicdungeons
 ```
+
+_Example_
+
+```
+https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/9aG2VlY.jpg
+```
+
+![](https://otfbm.io/26x14/@dc60/e5-Fighter?bg=https://i.imgur.com/9aG2VlY.jpg)
 
 The following can be used as a background as shown below
 
