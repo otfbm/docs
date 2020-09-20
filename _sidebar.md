@@ -7,6 +7,7 @@
   - [Walls and Doors](wallsanddoors.md)
   - [Overlays](overlays.md)
   - [Additional Options](addops.md)
+  - [Predefined Maps And Tokens](predefined-maps-and-tokens.md)
 
 - Avrae and OTFBM
 
