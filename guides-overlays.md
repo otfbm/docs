@@ -26,9 +26,28 @@ Here are all the possible combinations of the previous arguments:
 Shape | Command | Explanation
 :--- | :--- | :---
 Circle | `circle,<radius>,<color>,<center>` | Draws a circle centered on a coordinate.
-" | `circletop,<radius>,<color>,<center>` | Draws a circle centered on the top left corner of a coordinate.
+Circle | `circletop,<radius>,<color>,<center>` | Draws a circle from the top left coordinate.
+Circle | `circlecorner,<radius>,<color>,<topleftcorner>` | Draws a circle centered on the top left corner of a coordinate.
 Cone | `cone,<size>,<color>,<start>,<aim>` | Draws a cone with start and aim coordinates.
 Line | `line,<length>,<width>,<color>,<start>,<end>` | Draws a line with start and end coordinates.
 Arrow | `arrow,<color>,<start>,<end>` | Draws an arrow with start and end coordinates.
-Square | `square,<size>,<color>,<center>[,<aim>]` | Draws a square centered on a coordinate. Optional: aiming at a coordinate rotates the square.
-" | `squaretop,<size>,<color>,<center>[,<aim>]` | Draws a square centered on the top left corner of a coordinate. Optional: aiming at a coordinate rotates the square.
+Square | `square,<size>,<color>,<center>[,<aim>]` | Draws a square with its top-left on a coordinate. Optional: aim to cast it towards a coordinate, using its side as a pivot point.
+Square | `squaretop,<size>,<color>,<center>[,<aim>]` | Draws a square with its top-left on a coordinate. Optional: aim to cast it towards a coordinate, using its corner as a pivot point.
+
+One of the additional arguments you can add to `-over` is `-t <combatant>`. An `-over` command without `-t` defaults to showing only for one run of `!map`. By targeting a combatant, that overlay sticks to it and remains visible until it's removed.
+
+## 2. Overlays as spells
+
+Overlays excel at showing spell effects on the battlefield. There is a list of ready-made spell overlays you can check:
+
+````
+!map -spellbook
+````
+
+This list contains most, if not all, official D&D area of effect spells. So, if you want to look up a specific spell:
+
+```
+!map -spellbook -search <Spell Name>
+```
+
+Now, let's get physical...
