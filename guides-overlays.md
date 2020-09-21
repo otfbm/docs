@@ -26,28 +26,40 @@ Here are all the possible combinations of the previous arguments:
 Shape | Command | Explanation
 :--- | :--- | :---
 Circle | `circle,<radius>,<color>,<center>` | Draws a circle centered on a coordinate.
-Circle | `circletop,<radius>,<color>,<center>` | Draws a circle from the top left coordinate.
-Circle | `circlecorner,<radius>,<color>,<topleftcorner>` | Draws a circle centered on the top left corner of a coordinate.
+Circle | `circletop,<radius>,<color>,<topleft>` | Draws a circle with its top-left on a coordinate.
+Circle | `circlecorner,<radius>,<color>,<topleft>` | Draws a circle centered on the top-left corner of a coordinate.
 Cone | `cone,<size>,<color>,<start>,<aim>` | Draws a cone with start and aim coordinates.
 Line | `line,<length>,<width>,<color>,<start>,<end>` | Draws a line with start and end coordinates.
 Arrow | `arrow,<color>,<start>,<end>` | Draws an arrow with start and end coordinates.
 Square | `square,<size>,<color>,<center>[,<aim>]` | Draws a square with its top-left on a coordinate. Optional: aim to cast it towards a coordinate, using its side as a pivot point.
 Square | `squaretop,<size>,<color>,<center>[,<aim>]` | Draws a square with its top-left on a coordinate. Optional: aim to cast it towards a coordinate, using its corner as a pivot point.
 
-One of the additional arguments you can add to `-over` is `-t <combatant>`. An `-over` command without `-t` defaults to showing only for one run of `!map`. By targeting a combatant, that overlay sticks to it and remains visible until it's removed.
+### Want an overlay not to disapper afterwards?
+
+Just add `-t <combatant>` to your `-over` command:
+
+```
+!map -over circle,15,R,H5 -t GO1
+```
+
+An `-over` command without `-t` defaults to showing only once. This means that the next time you run `!map` the overlay won't be there. By targeting a combatant, that overlay sticks to it and remains visible until it's removed.
 
 ## 2. Overlays as spells
 
-Overlays excel at showing spell effects on the battlefield. There is a list of ready-made spell overlays you can check:
+Overlays excel at showing spell effects on the battlefield. There is a list of ready-made spell overlays you can check by running:
 
 ````
 !map -spellbook
 ````
 
-This list contains most, if not all, official D&D area of effect spells. So, if you want to look up a specific spell:
+This list contains most, if not all, official D&D area of effect spells. Next to each spell is an indication of whether you need to specify a `-t` or `-aim` location.
+
+### Practical example
+
+Now, let's get physical. Let's say you're the DM and you want your Druid enemy `DR1` to cast `Entangle` on an unsuspecting player named `Prixaris`. First we're going to look up that specific spell:
 
 ```
-!map -spellbook -search <Spell Name>
+!map -spellbook -search Entangle
 ```
 
-Now, let's get physical...
+Great, the spellbook should say it requires a `-t` and somewhere to `-aim` it at. That'll be the area around `Prixaris`. First we cast it in combat:
