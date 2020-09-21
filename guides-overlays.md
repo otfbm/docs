@@ -34,7 +34,7 @@ Arrow | `arrow,<color>,<start>,<end>` | Draws an arrow with start and end coordi
 Square | `square,<size>,<color>,<center>[,<aim>]` | Draws a square with its top-left on a coordinate. Optional: aim to cast it towards a coordinate, using its side as a pivot point.
 Square | `squaretop,<size>,<color>,<center>[,<aim>]` | Draws a square with its top-left on a coordinate. Optional: aim to cast it towards a coordinate, using its corner as a pivot point.
 
-### Want an overlay not to disapper afterwards?
+### Your overlay keeps disappearing?
 
 Just add `-t <combatant>` to your `-over` command:
 
@@ -42,7 +42,7 @@ Just add `-t <combatant>` to your `-over` command:
 !map -over circle,15,R,H5 -t GO1
 ```
 
-An `-over` command without `-t` defaults to showing only once. This means that the next time you run `!map` the overlay won't be there. By targeting a combatant, that overlay sticks to it and remains visible until it's removed.
+Without a `-t`, an overlay defaults to showing only once. This means that the next time you run `!map` it won't be there. Target a combatant to stick an overlay to it and it'll remain visible until removed.
 
 ## 2. Overlays as spells
 
