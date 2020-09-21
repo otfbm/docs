@@ -15,7 +15,7 @@ First up, we enter initiative by typing the command:
 
 Once that is done, we need to add a combatant to the initiative order onto whom the map is going to be automatically attached. Attaching a map allows every change that's made to it to be saved. We recommend adding a dedicated combatant for this, instead of a player or a monster, to prevent the map from vanishing when a player exits combat, or a monster is killed.
 
-So our combatant is going to be called `DM`, but it can also be `Map`. Either name triggers the automatic attachment of the map. And we’re going to set its initiative at 20 so it can also be used for Lair Actions, if needed:
+So our combatant is going to be called `DM`, but it can also be `Map` or `Lair`. Either name triggers the automatic attachment of the map. And we’re going to set its initiative at 20 so it can also be used for Lair Actions, if needed:
 
 ```
 !i add 0 DM -p 20
