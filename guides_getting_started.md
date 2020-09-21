@@ -38,7 +38,7 @@ Now that you have a map going, you're probably thinking that the default 10x10 g
 Great, but it’s still a bland white background. Let's spice things up by adding a background image:
 
 ```
-!map -mapbg https://i.imgur.com/WnTUKcJ.jpg 
+!map -bg https://i.imgur.com/WnTUKcJ.jpg 
 ```
 
 Looking better. You can add any background you like with the following caveats:
@@ -48,7 +48,7 @@ Looking better. You can add any background you like with the following caveats:
 Sweet. So now we have the map anchored to the initiative order through a specific combatant, set to a good size, and with a custom background. That’s a lot of commands to run separately. Luckily, you can use all those arguments on the same command instead:
 
 ```
-!map -mapattach DM -mapsize 26x14 -mapbg https://i.imgur.com/WnTUKcJ.jpg
+!map -attach DM -mapsize 26x14 -bg https://i.imgur.com/WnTUKcJ.jpg
 ```
 
 ## 3. Adding combatants to the map
