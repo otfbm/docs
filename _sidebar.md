@@ -6,6 +6,7 @@
   - [Background images](background.md)
   - [Walls and Doors](wallsanddoors.md)
   - [Overlays](overlays.md)
+  - [Objects](objects.md)
   - [Additional Options](addops.md)
   - [Predefined Maps And Tokens](predefined-maps-and-tokens.md)
 

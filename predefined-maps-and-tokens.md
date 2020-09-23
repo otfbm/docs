@@ -76,3 +76,103 @@ https://otfbm.io/a7:12x8/b10b-Urzer/b11b-Nissa/a10-Brie/a11-Oiman/j9r-go1/j10r-g
 ```
 
 ![](https://otfbm.io/a7:12x8/b10b-Urzer/b11b-Nissa/a10-Brie/a11-Oiman/j9r-go1/j10r-go2/j11r-go3/j12r-go4?load=https://cdn.discordapp.com/attachments/746474041577308301/757301430020341760/patreon-seafootgames.json&load=https://cdn.discordapp.com/attachments/746474041577308301/757303919012610168/characters.json&load=https://cdn.discordapp.com/attachments/746474041577308301/757305182878171246/monsters.json)
+
+## All options
+
+### board 
+
+Used to set the view. See [view](view.md) for more information.
+
+example 
+```json
+{
+    "board": "a1:10x10"
+}
+```
+
+example 
+```json
+{
+    "board": "a1:d4"
+}
+```
+
+### options 
+
+Used to set map options: See [options](addops.md) for more information.
+
+example
+
+```json
+{
+    "options": "@dc40"
+}
+```
+
+### background
+
+Used to set the URL of a background image. See [backgrounds](background.md) for more information.
+
+example
+```json
+{
+    "background": "https://cdn.discordapp.com/attachments/687568111498821642/758396371035357254/mountain-checkpoint.jpg"
+}
+```
+
+### tokenImages
+
+Used to set images to be used on tokens. See [tokens](tokens.md) for more information.
+
+example 
+```json
+{
+    "tokenImages": {
+        "goblin#": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/351/1000/1000/636252777818652432.jpeg"
+    }
+}
+```
+
+### tokens 
+
+Used to define token locations, colors and labels. See [tokens](tokens.md) for more information.
+
+example
+```json
+{
+    "tokens": ["a1b-Urzer", "b2b-Brie"]
+}
+```
+
+### objects
+
+Used to define overlays such as traps. See [objects](objects.md) for more information.
+
+example
+```json
+{
+    "objects": ["d3$T"]
+}
+```
+
+### walls
+
+Used to define lines. See [walls](wallsanddoors.md) for more information.
+
+example
+```json
+{
+    "walls": ["_B3J3_B6J6", "_B6-oG6"]
+}
+```
+
+### overlays
+
+Used to define effects. See [overlays](overlays.md) for more information.
+
+example
+```json
+{
+    "overlays": ["*t50ba5e5", "*a10pD3E5"]
+}
+```
