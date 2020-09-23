@@ -11,7 +11,7 @@ The following map setup in JSON format:
 ```json
 {
     "options": "@c72dh20",
-    "board": "30x20",
+    "view": "30x20",
     "background": "https://cdn.discordapp.com/attachments/742395958104686635/742396921485721640/3ddsh2jkmor41.jpg"
 }
 ```
@@ -79,21 +79,21 @@ https://otfbm.io/a7:12x8/b10b-Urzer/b11b-Nissa/a10-Brie/a11-Oiman/j9r-go1/j10r-g
 
 ## All options
 
-### board 
+### view 
 
 Used to set the view. See [view](view.md) for more information.
 
 example 
 ```json
 {
-    "board": "a1:10x10"
+    "view": "a1:10x10"
 }
 ```
 
 example 
 ```json
 {
-    "board": "a1:d4"
+    "view": "a1:d4"
 }
 ```
 
