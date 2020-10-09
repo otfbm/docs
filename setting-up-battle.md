@@ -6,7 +6,7 @@ Keep in mind that throughout this guide we will use brackets to signify `<requir
 
 ## Beginner Level
 
-####1.) First with !battle
+#### 1.) First with !battle
 
 - Run the command: `!battle new "<battle name>" "<monster name>" [args]`.  Note the quotation marks.  These are not required, but will help prevent potential mismatches down the line.
 
@@ -123,7 +123,6 @@ Example
 ![](https://cdn.discordapp.com/attachments/695782699834540082/764238746983333928/Screen_Shot_2020-10-09_at_3.31.43_PM.png)
 
 - Then run `!battle begin ambush` and it will set up everything
-
 
 
 
