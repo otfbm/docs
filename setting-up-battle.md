@@ -32,7 +32,7 @@ Keep in mind that throughout this guide we will use brackets to signify `<requir
 
 ![](https://cdn.discordapp.com/attachments/695782699834540082/764151845039374356/Screen_Shot_2020-10-08_at_7.20.06_AM.png)
 
-####2.) Next with !map
+#### 2.) Next with !map
 
 - Run  `!battle begin <battle name>` to get an initiative going
 
@@ -123,7 +123,6 @@ Example
 ![](https://cdn.discordapp.com/attachments/695782699834540082/764238746983333928/Screen_Shot_2020-10-09_at_3.31.43_PM.png)
 
 - Then run `!battle begin ambush` and it will set up everything
-
 
 
 
