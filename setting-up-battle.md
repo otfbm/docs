@@ -20,7 +20,7 @@ Keep in mind that throughout this guide we will use brackets to signify `<requir
 
 ![](https://cdn.discordapp.com/attachments/695782699834540082/764151326874664990/Screen_Shot_2020-10-08_at_7.05.53_AM.png)
 
-- If you need to remove monsters you previously added: **!battle remove “< battle name >” “< monster name >” [args]**
+- If you need to remove monsters you previously added: `!battle remove “<battle name>” “<monster name>” [args]`
 
 `!battle remove “Ambush” “worg” -n 4`
 
