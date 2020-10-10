@@ -18,3 +18,4 @@
 
   - [Getting Started](guides_getting_started.md)
   - [Using Overlays](guides-overlays.md)
+  - [Setting up battles using `!battle` and `!map`](setting-up-battle.md)
