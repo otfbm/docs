@@ -60,6 +60,9 @@ http://otfbm.io/D3-Goblin/A1-Goblin/G4-Fighter
 
 ![](http://otfbm.io/D3-Goblin/A1-Goblin/G4-Fighter)
 
+*Note* 
+Labels have been added to tokens with images and numbered sequences. If the token is large enough, the full token label will be displayed. If the token is too small for this only the number will show.
+
 **Token Sequence**
 Adding tokens is not case sensitive.  Tokens are however sequence sensitive. Use the following sequence when defining a token within the url as shown below. As well as an example of creating a gargantuan, red token at D4 in the grid.  
 
@@ -88,3 +91,17 @@ https://otfbm.io/d3h-Urzer~<shortcode>
 ```  
 
 ![](https://otfbm.io/d3h-Urzer~6yts4)
+
+**Facial Recognition on tokens**  
+Token facial recognition can now be intentionally turned off on a case by case basis
+Defining a token segment with a trailing ~ character will force the original token to be displayed rather than the one that was created using facial recognition.
+
+Example. 
+* with facial recognition /a2-satyr~wcqj3/
+* without facial recognition /a2-satyr~wcqj3~/
+
+```
+https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/b1-satyr~wcqj3~/
+```
+
+![](https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/b1-satyr~wcqj3~/)
