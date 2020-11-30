@@ -7,6 +7,7 @@
   - [Walls and Doors](wallsanddoors.md)
   - [Overlays](overlays.md)
   - [Objects](objects.md)
+  - [Fog of War](fogofwar.md)
   - [Additional Options](addops.md)
   - [Predefined Maps And Tokens](predefined-maps-and-tokens.md)
 
