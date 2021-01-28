@@ -101,7 +101,7 @@ Example.
 * without facial recognition /a2-satyr~wcqj3~/
 
 ```
-https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/b1-satyr~wcqj3~/
+https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/a2-satyr~wcqj3~/
 ```
 
-![](https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/b1-satyr~wcqj3~/)
+![](https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/a2-satyr~wcqj3~/)
