@@ -63,3 +63,26 @@ https://otfbm.io/*a10pD3E5
 ![](https://otfbm.io/*a10pD3E5)
 
 `*a` arrow `10` size `p` _colour_ `d3` start co-ordinate `e5` direction co-ordinate  
+
+## Putting Overlays under the Token layer (Underlays)
+
+In some cases you may have a need to put an overlay under tokens. Use `u` after the `*` to signify placing the item under the token layer. (an example would be the Grease spell.) 
+
+**_Example_**
+
+A red 20 ft radius circle overlay example. 
+
+```
+https://otfbm.io/*c20rd5/d5-Bard
+```
+
+![](https://otfbm.io/*c20rd5/d5-Bard) 
+
+
+A red 20 ft radius circle overlay example with `u` designation. 
+
+``` 
+https://otfbm.io/*uc20rd5/d5-Bard
+```
+
+![](https://otfbm.io/*uc20rd5/d5-Bard) 
