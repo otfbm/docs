@@ -19,4 +19,4 @@
 
   - [Getting Started](guides_getting_started.md)
   - [Using Overlays](guides-overlays.md)
-  - [Setting up battles](setting-up-battle.md)
+  - [Setting up bplan](setting-up-bplan.md)
