@@ -49,7 +49,7 @@ http://otfbm.io/@o30:20
 ```
 
 ## Background Maps from DynamicDungeons
-A super cool artist has allowed us to use some of his maps. please check out thier Patreon at the link below.
+A super cool artist has allowed us to use some of his maps. please check out their Patreon at the link below.
 ```
 https://www.patreon.com/dynamicdungeons
 ```
