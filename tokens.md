@@ -97,11 +97,11 @@ Token facial recognition can now be intentionally turned off on a case by case b
 Defining a token segment with a trailing ~ character will force the original token to be displayed rather than the one that was created using facial recognition.
 
 Example. 
-* with facial recognition /a2-satyr~wcqj3/
-* without facial recognition /a2-satyr~wcqj3~/
+* with facial recognition `/b1-satyr~wcqj3/`
+* without facial recognition `/b1-satyr~wcqj3~/`
 
 ```
-https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/a2-satyr~wcqj3~/
+https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/b1-satyr~wcqj3~/
 ```
 
-![](https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/a2-satyr~wcqj3~/)
+![](https://otfbm.io/2x1/@c60/a1-satyr~wcqj3/b1-satyr~wcqj3~/)
