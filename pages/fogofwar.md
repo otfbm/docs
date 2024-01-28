@@ -8,6 +8,6 @@ _**Example**_
 
 `-fow b2:d4,f2:h4,b6:d8,f6:h8`
 ```
-https://otfbm.io/@d/*fb2d4/*ff2h4/*fb6d8/*ff6h8/10x10/?load=https://media.discordapp.net/attachments/712795723623694376/1197208149434830898/PSX_20240117_235731.jpg
+https://otfbm.io/@d/*fb2d4/*ff2h4/*fb6d8/*ff6h8/10x10/?load=https://cdn.discordapp.com/attachments/740988703689801850/763079108636049459/DeathHousev3.json
 ```
-![](https://otfbm.io/@d/*fb2d4/*ff2h4/*fb6d8/*ff6h8/10x10/?load=https://media.discordapp.net/attachments/712795723623694376/1197208149434830898/PSX_20240117_235731.jpg)
+![](https://otfbm.io/@d/*fb2d4/*ff2h4/*fb6d8/*ff6h8/10x10/?load=https://cdn.discordapp.com/attachments/740988703689801850/763079108636049459/DeathHousev3.json)
