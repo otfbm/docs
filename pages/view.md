@@ -16,7 +16,7 @@ A 5x7 map
 
 ## Grid Pan
 
-You can also `!view` different parts of the map by panning, which sets the top left corner to whatever grid location is specified.
+You can also `!view` different parts of the map, which sets the top left corner to whatever grid location is specified. To define the size of the view, you can either specify the bottom right coordinate or provide a grid range.
 
 _*Example*_
 
@@ -29,12 +29,33 @@ or
 ```
 !view M3:5x4
 ```
-
 ![](https://otfbm.io/m3:q6/)
+
+This `!view` can be moved and resized in any direction you like by using the commands `shift`, `expand`, and `reduce`. These commands use a special directional syntax of **distance**__direction__ where distance is the number of feet (in 5ft increments) to shift, expand or reduce, and direction is the letter of the direction to move in, which can be `n`, `ne`, `e`, `se`, `s`, `sw`, `w`, `nw`. You can chain as many directions as you like, i.e. `5n15ne20n` translates to 5ft (1 cell) north, 15ft (3 cells) northeast, then 20ft (4 cells) north again.
+
+_*Example*_
+
+The previous 5x4 view being shifted 15ft to the east and 20ft to the south.
+```
+!view 15e20s shift
+```
+![](https://otfbm.io/P7:T10)
+
+Next let's expand it 25ft to the north and 10ft to the east
+```
+!view 25n10e expand
+```
+![](https://otfbm.io/P2:V10)
+
+Finally we'll shrink the view 30ft south and 10ft west
+```
+!view 30s10w reduce
+```
+![](https://otfbm.io/R2:V5)
 
 ## Dark Mode
 
-There is also dark mode, if you prefer `-options d`
+There is also dark mode, if you prefer, with `-options d`
 
 [Options](/pages/options.md) can give you further control over how the map looks.
 
