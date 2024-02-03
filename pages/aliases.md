@@ -1,6 +1,6 @@
 # Avrae aliases and OTFBM
 
-Discord users `@Croebh` and `@Nerds and Dragons` have embraced OTFBM and created some really awesome Avrae aliases that utilize the site.
+Discord users `@Croebh`, `@Nerds and Dragons`, and `@Amenadude` have embraced OTFBM and created some really awesome Avrae aliases that utilize the site.
 
 ## Avrae
 
@@ -19,6 +19,8 @@ Once you've subscribed to all the aliases you likely don't know how to use yet, 
 To get inline help in Discord with any alias, use `!help <alias>`.
 
 `!map !move !distance !tokenimport !go !view !se` can be found at [Map Utlities](https://avrae.io/dashboard/workshop/5f6a4623f4c89c324d6a5cd3)
+
+`!bplan` can be found at [Battle Planner Tool](https://avrae.io/dashboard/workshop/5f7eb5d2f2d59b2718720f7f)
 
 `!conjure !maprand !invis` can be found at [Map Plugins](https://avrae.io/dashboard/workshop/604a56061e2241970bbeffb5)
 

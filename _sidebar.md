@@ -1,14 +1,21 @@
-- How to Use OTFBM
+- On The Fly Battle Guide
 
-  - [Basic Information](/)
-  - [The Grid](/pages/view.md)
+  - [Main](/)
+
+- Getting Started
+
+  - [Viewing the Grid](/pages/view.md)
+    - [Grid Size](/pages/view.md?id=grid-size)
+    - [Grid Pan](/pages/view.md?id=grid-pan)
+    - [Dark Mode](/pages/view.md?id=dark-mode)
+  - [Background Images](/pages/backgrounds.md)
+    - [Adjusting Grids to Maps](/pages/background.md?id=adjusting-grids-to-maps)
+  - [Structures](/pages/structures.md)
   - [Tokens](/pages/tokens.md)
-  - [Background images](/pages/background.md)
-  - [Walls and Doors](/pages/wallsanddoors.md)
   - [Overlays](/pages/overlays.md)
   - [Objects](/pages/objects.md)
   - [Fog of War](/pages/fogofwar.md)
-  - [Additional Options](/pages/addops.md)
+  - [Additional Options](/pages/options.md)
   - [Predefined Maps And Tokens](/pages/predefined-maps-and-tokens.md)
 
 - Avrae and OTFBM
