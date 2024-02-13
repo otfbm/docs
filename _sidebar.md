@@ -1,6 +1,4 @@
-- On The Fly Battle Guide
-
-  - [Main](/)
+- [Aliases](/pages/aliases.md)
 
 - Getting Started
 
@@ -9,20 +7,21 @@
     - [Grid Pan](/pages/view.md?id=grid-pan)
     - [Dark Mode](/pages/view.md?id=dark-mode)
   - [Background Images](/pages/backgrounds.md)
-    - [Adjusting Grids to Maps](/pages/background.md?id=adjusting-grids-to-maps)
+    - [Background Offset](/pages/backgrounds.md?id=background-offset)
+    - [Cell Size](/pages/backgrounds.md?id=cell-size)
+    - [Ready to Use Maps](/pages/backgrounds.md?id=ready-to-use-maps)
   - [Objects](/pages/objects.md)
   - [Structures](/pages/structures.md)
   - [Tokens](/pages/tokens.md)
   - [Overlays](/pages/overlays.md)
   - [Fog of War](/pages/fogofwar.md)
-  - [Additional Options](/pages/options.md)
+    - [Clearing](/pages/fogofwar?id=clearing-fog-of-war)
+    - [Replacing](/pages/fogofwar?id=replacing-fog-of-war)
+    - [Removing](/pages/fogofwar?id=removing-fog-of-war)
+  - [Options](/pages/options.md)
   - [Predefined Maps And Tokens](/pages/predefined-maps-and-tokens.md)
 
-- Avrae and OTFBM
-
-  - [Aliases](/pages/aliases.md)
-
-- Alias Guides
+- In-Depth Guides
 
   - [Getting Started](/pages/guides_getting_started.md)
   - [Using Overlays](/pages/guides-overlays.md)

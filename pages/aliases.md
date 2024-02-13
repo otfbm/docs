@@ -12,11 +12,13 @@ When you use any alias, `!move` for example, Avrae will prioritize the user alia
 
 ## Avrae Dashboard
 
-The absolute easiest way to get aliases is via the [Avrae Dashboard](https://avrae.io/dashboard/workshop?order=popular-1w&page=1). You can browse the collections there, view the available aliases each collection provides, subscribe to each one for your Discord user and/or for any servers you are a member of.
+The absolute easiest way to get aliases is via the [Avrae Dashboard](https://avrae.io/dashboard/workshop?order=popular-1w&page=1). You can browse the collections there, view the available aliases each collection provides, subscribe to each one for your Discord user and/or for any servers you are a member of. You'll need to login to the dadhboard with your Discord account to subscribe to aliases.
 
 Once you've subscribed to all the aliases you likely don't know how to use yet, return to the server you added the aliases for and type `!alias` to make sure they show up in your personal list, or `!servalias` to get all aliases the entire server is subscribed to.
 
 To get inline help in Discord with any alias, use `!help <alias>`.
+
+`!init` is included with Avrae by default, there's no need to add it.
 
 `!map !move !distance !tokenimport !go !view !se` can be found at [Map Utlities](https://avrae.io/dashboard/workshop/5f6a4623f4c89c324d6a5cd3)
 
