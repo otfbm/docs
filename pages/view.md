@@ -12,13 +12,13 @@ A 5x7 map
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -mapsize 5x7
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/5x7
@@ -38,7 +38,7 @@ A 5x2 map view starting at **M3**
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !view M3:Q6
@@ -48,7 +48,7 @@ or
 !view M3:5x4
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/m3:q6/
@@ -74,13 +74,13 @@ The previous 5x4 view being shifted 15ft to the east and 20ft to the south.
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !view 15e20s shift
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/P7:T10
@@ -94,13 +94,13 @@ Next let's expand it 25ft to the north and 10ft to the east
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !view 25n10e expand
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/P2:V10
@@ -114,21 +114,21 @@ Finally we'll shrink the view 30ft south and 10ft west
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !view 30s10w reduce
 ```
 
-##### Url
+#### **Url**
 
 ```
-https://otfbm.io/R2:V5
+https://otfbm.io/P8:T10
 ```
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/R2:V5)
+![](https://otfbm.io/P8:T10)
 
 ## Dark Mode
 
@@ -142,13 +142,13 @@ A 20x20 map with dark mode
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -mapsize 20x20 -options d
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/@d/20x20

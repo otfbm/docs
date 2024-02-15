@@ -8,13 +8,13 @@ A 25x20 map with the provided Forest background
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -bg https://i.imgur.com/9aG2VlY.jpg
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/25x20?bg=https://i.imgur.com/9aG2VlY.jpg
@@ -38,13 +38,13 @@ The Forest map offset 30px right and 20px down
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -bg https://i.imgur.com/9aG2VlY.jpg -options o30:20`
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/@o30:20/25x20?bg=https://i.imgur.com/9aG2VlY.jpg
@@ -64,13 +64,13 @@ The Forest map with 60px cells
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -bg https://i.imgur.com/9aG2VlY.jpg -options c60
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/@c60/25x20?bg=https://i.imgur.com/9aG2VlY.jpg

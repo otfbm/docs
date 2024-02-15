@@ -12,13 +12,13 @@ _*Example*_
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -fow b2:d4,f2:h4,b6:d8,f6:h8
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/@d/*fb2d4/*ff2h4/*fb6d8/*ff6h8/10x10/?load=https://cdn.discordapp.com/attachments/740988703689801850/763079108636049459/DeathHousev3.json
@@ -36,13 +36,13 @@ _*Example*_
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -addfow b2:d4,b6:d8
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/@d/*fb2d4/*fb6d8/10x10/?load=https://cdn.discordapp.com/attachments/740988703689801850/763079108636049459/DeathHousev3.json
@@ -60,13 +60,13 @@ _*Example*_
 
 <!-- tabs:start -->
 
-##### Discord
+#### **Discord**
 
 ```
 !map -fow none
 ```
 
-##### Url
+#### **Url**
 
 ```
 https://otfbm.io/@d/10x10/?load=https://cdn.discordapp.com/attachments/740988703689801850/763079108636049459/DeathHousev3.json
