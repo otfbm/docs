@@ -2,6 +2,11 @@
 
 - Getting Started
 
+  - [Starting Battle](/pages/starting-battle.md)
+    - [Init](/pages/starting-battle.md?id=init)
+    - [Adding the Map](/pages/starting-battle.md?id=adding-the-map)
+    - [Adding Combatants](/pages/starting-battle?id=adding-combatants)
+    - [Moving Combatants](/pages/starting-battle?id=moving-combatants)
   - [Viewing the Grid](/pages/view.md)
     - [Grid Size](/pages/view.md?id=grid-size)
     - [Grid Pan](/pages/view.md?id=grid-pan)
