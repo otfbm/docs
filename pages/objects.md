@@ -88,7 +88,99 @@ https://otfbm.io/5x5/c4d3$ta
 
 ---
 
+## Coloring Objects
+
+You can add colors to objects as well which is especially helpful if you're placing chests in a dark cave. Adding a color requires using either a predefined color code or a valid hexadecimal value prefixed with a tilde `~`.This is entered after the object code, prefixed by a comma `,`. To change color, retype the command with the desired color instead.
+
+_*Example*_
+
+A purple chest, orange fire, and golden puddle
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!map -object A1:es,p
+!map -object B2:fi,o
+!map -object C3:pu,~FFD700
+```
+
+#### **Url**
+
+```
+https://otfbm.io/5x5/a1p$es/b2o$fi/c3~f97$pu/c3~f93$pu/c3~ffd700$pu
+```
+
+<!-- tabs:end -->
+
+![](https://otfbm.io/5x5/a1p$es/b2o$fi/c3~f97$pu/c3~f93$pu/c3~ffd700$pu)
+
+---
+
+## Deleting Objects
+
+To remove an object, use `-deleteobject <coord>:<object>`. Please note that to remove objects that are scaled, rotated, or have a color applied, you MUST include each value as well, as it was entered when it was added, or Avrae will DM you an error like `ValueError: list.remove(x): x not in list`.
+
+_*Example*_
+
+Gary the wizard casts a portal spell. We have an object for that.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!map -object C3:mp,b
+```
+
+#### **Url**
+
+```
+https://otfbm.io/5x5/c3b$mp/b3g-Gary
+```
+
+<!-- tabs:end -->
+
+![](https://otfbm.io/5x5/c3b$mp/b3g-Gary)
+
+He steps through the portal, disappearing as the portal closes behind him.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!map -t Gary -move C3
+!map -deleteobject C3:mp,b
+!i remove Gary
+```
+
+#### **Url**
+
+```
+https://otfbm.io/5x5
+```
+
+<!-- tabs:end -->
+
+![](https://otfbm.io/5x5)
+
+---
+
 ## Complete List
+
+All of the available objects along with their codes. You can also use the shorthand value listed for the Url method in the alias method. You can pull up this list in your channel.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!map objectlist
+```
+
+<!-- tabs:end -->
 
 | Icon                          | Name                                 | Discord                         | Url   |
 |-------------------------------|--------------------------------------|--------------------------------|-------|

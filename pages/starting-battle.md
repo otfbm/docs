@@ -90,69 +90,29 @@ https://otfbm.io/E7Mr-GO2/D4Mr-GO1/A1Mr-GO3
 
 ---
 
-## Moving Combatants
+## Removing Combatants
 
-There are multiple ways to move tokens, including player tokens on a player's initiative. `!move` is used for direct movement, while `!go` is used for directional movement. To move multiple tokens at once you can invoke `!map -t <token> -move <coord>` for each token.
+Things are gonna die in battle, obviously. You can remove dead or retreated combatants from the map with `I remove <token_name>`. Technically this is an `!init` command, but most folks don't want to go all the way [over here](https://avrae.readthedocs.io/en/latest/cheatsheets/dm_combat.html#removing-from-combat) so we're including it here for completeness. You should really check out the [Avrae docs](https://avrae.readthedocs.io/en/latest/index.html) too though if you haven't already.
 
 _*Example*_
 
-Moving Goblin3 20 feet to D1 during their initiative
+Goblin1 and Goblin3 suddenly died seemingly out of nowhere. Goblin2 is scared and confused.
 
 <!-- tabs:start -->
 
 #### **Discord**
 
 ```
-!move D1
+!i remove GO1
+!i remove GO3
 ```
 
 #### **Url**
 
 ```
-https://otfbm.io/E7Mr-GO2/D4Mr-GO1/D1Mr-GO3/E1Mg-Fighty
+https://otfbm.io/E7Mr-GO2
 ```
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/E7Mr-GO2/D4Mr-GO1/D1Mr-GO3/E1Mg-Fighty)
-
-Unfortunately, Fighty had readied a shove action just in case Goblin3 did just that. Goblin3 gets thrown 5 feet backward. The DM can use the following to move any token with `!map -t <token_name> -move <coord>`. We'll throw an explosion in just for fun.
-
-<!-- tabs:start -->
-
-#### **Discord**
-
-```
-!map -t GO3 -move C1
-!map -object D1:ex
-```
-
-#### **Url**
-
-```
-https://otfbm.io/d1$ex/E7Mr-GO2/D4Mr-GO1/C1Mr-GO3/E1Mg-Fighty
-```
-
-<!-- tabs:end -->
-
-![](https://otfbm.io/d1$ex/E7Mr-GO2/D4Mr-GO1/C1Mr-GO3/E1Mg-Fighty)
-
-Goblin1 wants to heal Goblin3, but definitely doesn't want that smoke. They use `!go` to tactically maneuver towards Goblin3
-
-<!-- tabs:start -->
-
-#### **Discord**
-
-```
-!go 10nw5n
-```
-
-#### **Url**
-
-```
-https://otfbm.io/E7Mr-GO2/B1Mr-GO1/C1Mr-GO3/E1Mg-Fighty
-```
-
-<!-- tabs:end -->
-
-![](https://otfbm.io/E7Mr-GO2/B1Mr-GO1/C1Mr-GO3/E1Mg-Fighty)
+![](https://otfbm.io/E7Mr-GO2)
