@@ -1,4 +1,4 @@
-# Additional Options
+# Options
 
 You can specify additional drawing options by providing the following parameters after a `@`.
 
