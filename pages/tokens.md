@@ -211,56 +211,74 @@ https://otfbm.io/B2Tr-T1/B2Tg-T2/B2Tb-T3/C3Sy-Small/D4Mo-Mid/E5Le-Large/G7Hw-Hug
 
 ## Token Colors
 
-You can color tokens any valid [hexadecimal value](https://htmlcolorcodes.com/) if prefixed with `~`, such as `~FF0000` for red. Shorthand for hex values work, so you can use `~F00` as well, though you can also just use `r`. Following is the list of keyword colors available.
-
-| Color  | Code       |
-|--------|------------|
-|White   |`w`         |
-|Black   |`bk` `k`    |
-|Gray    |`gy` `e` `a`|
-|Red     |`r`         |
-|Green   |`g`         |
-|Blue    |`b`         |
-|Yellow  |`y`         |
-|Purple  |`p`         |
-|Cyan    |`c`         |
-|Brown   |`bn` `n`    |
-|Orange  |`o`         |
-|Pink    |`pk`        |
+You can change the color of a token with `!map -t <target> -color <color>` or `!map -t <target>|||<color>`. __color__ can be a valid [color code](pages/predefined?id=color-codes) or a hexadecimal value either 6 or 3 digits in length prefixed with a tilde `~` like `~dadb0d` or `~d20`.
 
 _*Example*_
 
-Some things are recolored
+We'll make some technicolor goblins.
 
 <!-- tabs:start -->
 
 #### **Discord**
 
 ```
-!move D1
+!map -t G01 -color dadb0d
+!map -t GO2 -color d20
+!map -t G03 -color c
+```
+
+or
+
+```
+!map -t G01|||dadb0d -t GO2|||d20 -t G03|||c
 ```
 
 #### **Url**
 
+Hexadecimal values must be prefixed by a tilde `~`.
+
 ```
-http://otfbm.io/D3p/A1r/G4y
+https://otfbm.io/5x5/C1Mc-GO3/B2M~DADB0D-GO1/A1M~D20-GO2
 ```
 
-<!-- tabs.end -->
+<!-- tabs:end -->
 
-![](http://otfbm.io/D3p/A1r/G4y)
+![](https://otfbm.io/5x5/C1Mc-GO3/B2M~DADB0D-GO1/A1M~D20-GO2)
 
 ## Token Labels
 
-You can add text labels to tokens. When doing so be careful not to use too much text or it will run outside the edge of the token. Labels are added using a `-` character and then the label. Eg. `-Goblin`
+When you add a creature to a map, the name you provide is automatically set as the label for the token. For example, `!i madd "Goblin" -n 3` will generate three tokens named GO1, GO2, and GO3.
+
+You can customize the names when you're adding creatures. Using `!i madd "Kobold" -n 5 -name Kob#` will generate five kobolds named Kob1, Kob2, Kob3, Kob4, and Kob5, which is a little nicer.
+
+The double quotes tell Avrae to use that exact word, so it will choose Goblin instead of DMing you a list of possible matches. If you prefer the matches, just drop the double quotes, aka `!i madd Goblin`.
+
+Some liberties are taken for autonaming, particularly to keep labels fitting in the token. Tiny tokens only display two characters, taken from the first character and last character, meaning a character named Pixie2 will be labelled P2 on the token. Small and Medium tokens accept up to four characters, so Goblin3 will just be Gobl, making Gob# a generally better choice if there is more than one. Large token labels can be up to 9 characters long, Huge token labels can be up to 14 characters long, and Gargantuan token labels can be up to 18 characters long.
 
 _*Example*_
 
+<!-- tabs:start -->
+
+#### **Discord**
+
 ```
-http://otfbm.io/D3-Goblin/A1-Goblin/G4-Fighter
+!i madd "Goblin" -n 3 -name Gob#
+!map -t Gob1 -move A1
+!map -t Gob2 -move C4
+!map -t Gob3 -move D3
 ```
 
-![](http://otfbm.io/D3-Goblin/A1-Goblin/G4-Fighter)
+#### **Url**
+
+Labels are added by prefixing a `-` and adding a label to a token in the url as shown.
+
+```
+https://otfbm.io/5x5/A1Sr-Gob1/C4Mr-Gob2/D3Mr-Gob3
+```
+
+<!-- tabs:end -->
+
+![](https://otfbm.io/5x5/A1Sr-Gob1/C4Mr-Gob2/D3Mr-Gob3)
 
 *Note*
 Labels have been added to tokens with images and numbered sequences. If the token is large enough, the full token label will be displayed. If the token is too small for this only the number will show.
@@ -281,7 +299,7 @@ http://otfbm.io/D4GR-Warlock
 
 ## Custom Tokens
 
-You can add custom images to any token, and they stick around for as long as that character is active on the server. Very helpful for PCs and special NPCs or BBEGs.
+You can add custom images to any token, and they stick around. Very helpful for PCs and special NPCs or BBEGs. You can also use the [SRD token list](/pages/predefined?id=tokens) to customize every token if you like.
 
 _*Example*_
 

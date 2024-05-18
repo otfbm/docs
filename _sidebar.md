@@ -35,7 +35,7 @@
     - [Replacing](/pages/fogofwar?id=replacing-fog-of-war)
     - [Removing](/pages/fogofwar?id=removing-fog-of-war)
   - [Options](/pages/options.md)
-  - [Predefined Maps And Tokens](/pages/predefined-maps-and-tokens.md)
+  - [Predefined Things](/pages/predefined.md)
 
 - In-Depth Guides
 
