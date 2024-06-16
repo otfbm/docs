@@ -4,7 +4,7 @@ Tokens represent controllable creatures on a battle map. They are a major compon
 
 ## Token Moving
 
-You can arbitrarily move tokens using `!map -t <target>|<location>` or `!map -t <target> -move <location>`. The `-move` method also draws a handy little arrow from the start to end position of the token. `!move <location>` will move the token in active initiative, and is equivalent to `!map -t <active> -move <location>`. You can also target another token with `!move <location> -t <someone_else>`.
+You can move tokens using `!map -t <target>|<location>` or `!map -t <target> -move <location>`. The `-move` method also draws a handy little arrow from the start to end position of the token. `!move <location>` will also move the token, and is equivalent to `!map -t <active> -move <location>`. `!move` allows you to target another token with `!move <location> -t <someone_else>`.
 
 _*Example*_
 
@@ -25,7 +25,7 @@ Let's set up a simple battle first, three goblins and two generic player charact
 These `-t` options can be combined into a single `!map` call, just keep adding `-t <data>` like so.
 
 ```
-!map -t GO1|a1 -t GO2|a2 -t GO3|a3 -t Rogue|e4 t Barb|e3
+!map -t GO1|a1 -t GO2|a2 -t GO3|a3 -t Rogue|e4 -t Barb|e3
 ```
 
 #### **Url**
@@ -69,8 +69,7 @@ Barb uses her readied action and just happened to score a critical hit and has t
 #### **Discord**
 
 ```
-!map -t GO2 -move c3
-!map -object d3:ex
+!map -t GO2 -move c3 -object d3:ex
 ```
 
 #### **Url**
@@ -115,7 +114,7 @@ After dispatching Goblin2, Rogue continues moving tactically towards the remaini
 The `!go` command uses a specific directional syntax. `<distance><direction>` can be chained for as long as you like to dance about the map.
 
 ```
-!i remove Goblin2
+!i remove GO2
 !go 5sw10w5n
 ```
 That's 5 ft southwest, then 10 ft west, then 5 ft north.
@@ -165,7 +164,7 @@ You can set the size of a token with `!map -t <target> -size <size>` or `!map -t
 
 You can change the token sizes to any of D&Ds monster sizes by adding a letter indicator. Use any of the following letters to indicate size:
 
-| Token                                                        | Size      | Code | Description                                                         |
+| Token                                                        | Size      | Code | Description                                                        |
 |--------------------------------------------------------------|-----------|------|--------------------------------------------------------------------|
 |![](https://otfbm.io/5x5/B2Tr-T1/B2Tg-T2/B2Tb-T3)             |Tiny       |`T`   |Up to 4 Tiny creatures can fit in a 5 ft square.                    |
 |![](https://otfbm.io/5x5/C3Sy-Small)                          |Small      |`S`   |Occupies a 5 ft square.                                             |
@@ -183,20 +182,20 @@ Setting several tokens of each size on the same grid.
 #### **Discord**
 
 ```
-!map -t T1|B2|T|r|T1
-!map -t T2|B2|T|g|T2
-!map -t T3|B2|T|b|T3
-!map -t Small|C3|S|y|Small
-!map -t Mid|D4||o|Mid
-!map -t Large|E5|L|e|Large
-!map -t Huge|G7|H|w|Huge
-!map -t Chonk|A7|G|r|Chonk
+!map -t T1|B2|T|r
+!map -t T2|B2|T|g
+!map -t T3|B2|T|b
+!map -t Small|C3|S|y
+!map -t Mid|D4||o
+!map -t Large|E5|L|e
+!map -t Huge|G7|H|w
+!map -t Chonk|A7|G|r
 ```
 
 or
 
 ```
-!map -t T1|B2|T|r|T1 -t T2|B2|T|g|T2 -t T3|B2|T|b|T3 -t Small|C3|S|y|Small -t Mid|D4||o|Mid -t Large|E5|L|e|Large -t Huge|G7|H|w|Huge -t Chonk|A7|G|r|Chonk
+!map -t T1|B2|T|r -t T2|B2|T|g -t T3|B2|T|b -t Small|C3|S|y -t Mid|D4||o -t Large|E5|L|e -t Huge|G7|H|w -t Chonk|A7|G|r
 ```
 
 #### **Url**
@@ -249,9 +248,9 @@ https://otfbm.io/5x5/C1Mc-GO3/B2M~DADB0D-GO1/A1M~D20-GO2
 
 When you add a creature to a map, the name you provide is automatically set as the label for the token. For example, `!i madd "Goblin" -n 3` will generate three tokens named GO1, GO2, and GO3.
 
-You can customize the names when you're adding creatures. Using `!i madd "Kobold" -n 5 -name Kob#` will generate five kobolds named Kob1, Kob2, Kob3, Kob4, and Kob5, which is a little nicer.
+You can customize the names when you're adding creatures. Using `!i madd "Goblin Boss" -n 5 -name "El Jefe#"` will generate five goblin bosses named El Jefe1, El Jefe2, El Jefe3, El Jefe4, and El Jefe5, which is a little nicer.
 
-The double quotes tell Avrae to use that exact word, so it will choose Goblin instead of DMing you a list of possible matches. If you prefer the matches, just drop the double quotes, aka `!i madd Goblin`.
+The double quotes tell Avrae to see more than one word as the monster's name, so it will choose a Goblin Boss instead of a goblin. If you partial match a monster's name, `!i madd Gobl`, Avrae will PM you to ask which monster with `gobl` in their name you meant..
 
 Some liberties are taken for autonaming, particularly to keep labels fitting in the token. Tiny tokens only display two characters, taken from the first character and last character, meaning a character named Pixie2 will be labelled P2 on the token. Small and Medium tokens accept up to four characters, so Goblin3 will just be Gobl, making Gob# a generally better choice if there is more than one. Large token labels can be up to 9 characters long, Huge token labels can be up to 14 characters long, and Gargantuan token labels can be up to 18 characters long.
 
