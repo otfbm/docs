@@ -141,6 +141,8 @@ A whole lot of SRD monsters have tokens pre-uploaded, you can find the shortcode
 
 </div>
 
+**Everything below this is outdated, attempt at your own risk, and don't use Discord CDN as a host.**
+
 ## Maps
 
 It is possible to define map setups in JSON format, upload them to publically accessible URL somewhere (eg. Discord) and then load them in later. This makes it possible to easily share map setups with others as well as maintain groups of token images that you can take with you from battle to battle.
