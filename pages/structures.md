@@ -1,5 +1,7 @@
 # Structures
 
+** This page is out of date, and will be updated soon.**
+
 You can draw walls and doors directly onto a battlemap using coordinates. To draw a wall, use the `_` character followed by coordinates.
 
 ## Walls

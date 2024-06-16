@@ -1,3 +1,5 @@
+**Imgur.com is not a reliable host anymore. A solution is being worked on, and workarounds are availble on Discord**
+
 # Background Images
 
 You can add custom background images to your map by providing the `-bg` option.
@@ -82,7 +84,7 @@ https://otfbm.io/@c60/25x20?bg=https://i.imgur.com/9aG2VlY.jpg
 
 ## Ready to Use Maps
 
-Some maps are included with the alias if you want to try out a preconfigured map before diving into a custom one. To see th list, use `!map maplist`. You can also save maps for later using `!map -savemap <name>` to tuck it away, and `!map -loadmap <name>` to load it back in, and when the DM TPK's your entire group, take revenge by using `!map -deletemap <name>` to wipe the painful memory from your Discord server forever.
+Some maps are included with the alias if you want to try out a preconfigured map before diving into a custom one. To see the list, use `!map maplist`. You can also save maps for later using `!map -savemap <name>` to tuck it away, and `!map -loadmap <name>` to load it back in, and when the DM TPK's your entire group, take revenge by using `!map -deletemap <name>` to wipe the painful memory from your Discord server forever.
 
 Note that a map saved via `!map -savemap` will only be available on the same server it was saved on. To share it with another server, and learn a bit more about how the sausage is made, see [Advanced Usage](/pages/advanced.md).
 

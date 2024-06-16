@@ -321,6 +321,8 @@ https://otfbm.io/E7Mr-GO2/D4Mr-GO1/D1Mr-GO3/E1Mg-Fighty
 
 <!-- tabs:end -->
 
+**Below here is outdated information that needs replaced with information on `-tokenimport`**
+
 **Token Images**
 Adding images to tokens is currently supported by preloading images at the following URL.
 ```

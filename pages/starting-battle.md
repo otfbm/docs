@@ -39,7 +39,7 @@ A map must be attached to a participant in battle. In order to avoid the map van
 
 _*Example*_
 
-Adding a combatant named `Map` to the battle
+Adding a combatant named `DM` to the battle
 
 <!-- tabs:start -->
 

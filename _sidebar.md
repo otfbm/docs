@@ -36,6 +36,8 @@
     - [Removing](/pages/fogofwar?id=removing-fog-of-war)
   - [Options](/pages/options.md)
   - [Predefined Things](/pages/predefined.md)
+    - [Color Codes](/pages/predefined?id=color-codes)
+    - [SRD Tokens](/pages/predefined?id=tokens)
 
 - In-Depth Guides
 

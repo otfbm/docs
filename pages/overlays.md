@@ -1,3 +1,5 @@
+**This page is outdated, and will be updated soon.**
+
 # Overlays
 
 You can also add overlays on the map.  These include Arrows and Spell overlays.
@@ -26,7 +28,7 @@ https://otfbm.io/*c20rd5
 
 ![](https://otfbm.io/*c20rd5)
 
-`*c` circle `20` diameter `r` _colour_ `d5` center co-ordinate  
+`*c` circle `20` diameter `r` _colour_ `d5` center co-ordinate
 
 Alternatively use `*ct` to anchor the circle from the top left.
 
@@ -52,7 +54,7 @@ https://otfbm.io/*s30ca1b2
 
 ![](https://otfbm.io/*s30ca1b2)
 
-`*s` square `30` size `c` _colour_ `a1` start co-ordinate `b2` direction co-ordinate  
+`*s` square `30` size `c` _colour_ `a1` start co-ordinate `b2` direction co-ordinate
 
 Alternatively use `*st` to anchor the square at the top left. (Or don't specify the direction co-ordinate.)
 
@@ -62,27 +64,27 @@ https://otfbm.io/*a10pD3E5
 
 ![](https://otfbm.io/*a10pD3E5)
 
-`*a` arrow `10` size `p` _colour_ `d3` start co-ordinate `e5` direction co-ordinate  
+`*a` arrow `10` size `p` _colour_ `d3` start co-ordinate `e5` direction co-ordinate
 
 ## Putting Overlays under the Token layer (Underlays)
 
-In some cases you may have a need to put an overlay under tokens. Use `u` after the `*` to signify placing the item under the token layer. (an example would be the Grease spell.) 
+In some cases you may have a need to put an overlay under tokens. Use `u` after the `*` to signify placing the item under the token layer. (an example would be the Grease spell.)
 
 **_Example_**
 
-A red 20 ft radius circle overlay example. 
+A red 20 ft radius circle overlay example.
 
 ```
 https://otfbm.io/*c20rd5/d5-Bard
 ```
 
-![](https://otfbm.io/*c20rd5/d5-Bard) 
+![](https://otfbm.io/*c20rd5/d5-Bard)
 
 
-A red 20 ft radius circle overlay example with `u` designation. 
+A red 20 ft radius circle overlay example with `u` designation.
 
-``` 
+```
 https://otfbm.io/*uc20rd5/d5-Bard
 ```
 
-![](https://otfbm.io/*uc20rd5/d5-Bard) 
+![](https://otfbm.io/*uc20rd5/d5-Bard)
