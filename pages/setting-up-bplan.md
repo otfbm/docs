@@ -1,3 +1,5 @@
+** This page is outdated, and will be updated soon.**
+
 # Setting up battles using `!bplan` and `!map`
 
 Now that you know the basics of how to use `!map`, you can take advantage of another alias that helps make setting up an encounter much faster.  The `!bplan` alias allows you to set up an encounter and all of its combatants in advance.  By combining this time saver with the `!map` alias, we can get an encounter up and running during your session by running only two or three commands.  We’ll go through three different ways to work with both of these aliases.
@@ -117,7 +119,3 @@ Example
 ![](https://cdn.discordapp.com/attachments/695782699834540082/764238746983333928/Screen_Shot_2020-10-09_at_3.31.43_PM.png)
 
 - Then run `!bplan begin ambush` and it will set up everything
-
-
-
-

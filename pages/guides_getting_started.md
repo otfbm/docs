@@ -1,6 +1,6 @@
 # Getting Started
 
-If you're running the `!map` alias for the first time look no further. This guide will teach you how to set up a map, customize it, place characters as tokens, and move them. Check out our other guides if you've already got a handle on the `!map` alias.
+If you're running the `!map` alias for the first time, this is where you start. This guide will teach you how to set up a map, customize it, place characters as tokens, and move them. Check out our other guides if you've already got a handle on the `!map` alias.
 
 > **Disclaimer**
 This guide assumes you know the basic `!init` functions of Avrae: how to start an encounter, add monsters, add combatants, and generally run a combat. If you don't you can head over to [Avrae's documentation](https://avrae.readthedocs.io/en/latest/) to find out how.
@@ -38,11 +38,11 @@ Now that you have a map going, you're probably thinking that the default 10x10 g
 Great, but it’s still a bland white background. Let's spice things up by adding a background image:
 
 ```
-!map -bg https://i.imgur.com/WnTUKcJ.jpg 
+!map -bg https://i.imgur.com/WnTUKcJ.jpg
 ```
 
 Looking better. You can add any background you like with the following caveats:
-- images larger than 1MB may be resized or lose resolution unit they're reduced to that file size;
+- images larger than 1MB may be resized or lose resolution until they're reduced to that file size;
 - since the default grid size is 40px by 40px the background image might not line up. If that's the case, check out our [Advanced Guides]() to find out how to change the grid size or offset the background image.
 
 Sweet. So now we have the map anchored to the initiative order through a specific combatant, set to a good size, and with a custom background. That’s a lot of commands to run separately. Luckily, you can use all those arguments on the same command instead:

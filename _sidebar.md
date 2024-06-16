@@ -1,21 +1,45 @@
-- How to Use OTFBM
+- [Aliases](/pages/aliases.md)
 
-  - [Basic Information](/)
-  - [The Grid](/pages/view.md)
+- Getting Started
+
+  - [Starting Battle](/pages/starting-battle.md)
+    - [Init](/pages/starting-battle.md?id=init)
+    - [Adding the Map](/pages/starting-battle.md?id=adding-the-map)
+    - [Adding Combatants](/pages/starting-battle?id=adding-combatants)
+    - [Removing Combatants](/pages/starting-battle?id=removing-combatants)
+  - [Viewing the Grid](/pages/view.md)
+    - [Grid Size](/pages/view.md?id=grid-size)
+    - [Grid Pan](/pages/view.md?id=grid-pan)
+    - [Dark Mode](/pages/view.md?id=dark-mode)
   - [Tokens](/pages/tokens.md)
-  - [Background images](/pages/background.md)
-  - [Walls and Doors](/pages/wallsanddoors.md)
+    - [Token Moving](/pages/tokens?id=token-moving)
+    - [Token Size](pages/tokens?id=token-size)
+    - [Token Colors](/pages/tokens?id=token-colors)
+    - [Token Labels](/pages/tokens?id=token-labels)
+    - [Custom Tokens](/pages/tokens?id=custom-tokens)
   - [Overlays](/pages/overlays.md)
+  - [Background Images](/pages/backgrounds.md)
+    - [Background Offset](/pages/backgrounds.md?id=background-offset)
+    - [Cell Size](/pages/backgrounds.md?id=cell-size)
+    - [Ready to Use Maps](/pages/backgrounds.md?id=ready-to-use-maps)
   - [Objects](/pages/objects.md)
+    - [Adding](/pages/objects?id=adding-objects)
+    - [Scaling](/pages/objects?id=scaling-objects)
+    - [Rotating](/pages/objects?id=rotating-objects)
+    - [Coloring](/pages/objects?id=coloring-objects)
+    - [Deleting](/pages/objects?id=deleting-objects)
+    - [Complete List](/pages/objects?id=complete-list)
+  - [Structures](/pages/structures.md)
   - [Fog of War](/pages/fogofwar.md)
-  - [Additional Options](/pages/addops.md)
-  - [Predefined Maps And Tokens](/pages/predefined-maps-and-tokens.md)
+    - [Clearing](/pages/fogofwar?id=clearing-fog-of-war)
+    - [Replacing](/pages/fogofwar?id=replacing-fog-of-war)
+    - [Removing](/pages/fogofwar?id=removing-fog-of-war)
+  - [Options](/pages/options.md)
+  - [Predefined Things](/pages/predefined.md)
+    - [Color Codes](/pages/predefined?id=color-codes)
+    - [SRD Tokens](/pages/predefined?id=tokens)
 
-- Avrae and OTFBM
-
-  - [Aliases](/pages/aliases.md)
-
-- Alias Guides
+- In-Depth Guides
 
   - [Getting Started](/pages/guides_getting_started.md)
   - [Using Overlays](/pages/guides-overlays.md)
