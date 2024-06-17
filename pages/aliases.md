@@ -8,17 +8,17 @@ Avrae is a Discord bot centered around D&D 5e. It also has a built in automation
 
 ## Aliases and Server Aliases
 
-When you use any alias, `!move` for example, Avrae will prioritize the user alias over the server alias. Any Discord user can add a personal alias that they can use. Adding a server alias requires the user to either have Administrator permissions on the Discord server, or a role on the server called either "Server Aliaser" or "Dragonspeaker".
+Aliases are user-made scripts that run using Avrae.  Aliases can be added by any user to their own account or, with special permissions, to a Discord server.  When you use any alias, `!move` for example, Avrae will prioritize the user alias over the server alias.  Adding a server alias requires the user to either have Administrator permissions on the Discord server, or a role on the server called either "Server Aliaser" or "Dragonspeaker".
 
 ## Avrae Dashboard
 
-The absolute easiest way to get aliases is via the [Avrae Dashboard](https://avrae.io/dashboard/workshop?order=popular-1w&page=1). You can browse the collections there, view the available aliases each collection provides, subscribe to each one for your Discord user and/or for any servers you are a member of. You'll need to login to the dadhboard with your Discord account to subscribe to aliases.
+The easiest way to find alias collections is via the [Avrae Dashboard](https://avrae.io/dashboard/characters), in the [Alias Workshop](https://avrae.io/dashboard/workshop?order=popular-1w&page=1) "explore" section. You can browse collections there, view the available aliases each collection provides, subscribe to each one for your Discord user and/or for any servers you are a member of. You'll need to login to the dashboard with your Discord account to subscribe to collections.
 
-Once you've subscribed to all the aliases you likely don't know how to use yet, return to the server you added the aliases for and type `!alias` to make sure they show up in your personal list, or `!servalias` to get all aliases the entire server is subscribed to.
+Once you've subscribed to some aliases you likely don't know how to use yet, return to the server you added the aliases for and type `!alias` to make sure they show up in your personal list, or `!servalias` to see what aliases the server is subscribed to.
 
-To get inline help in Discord with any alias, use `!help <alias>`.
+For help in Discord with any alias added from the Workshop, use `!help <alias>` or `!help <alias> -here` to view the help in-channel instead of a PM.
 
-`!init` is included with Avrae by default, there's no need to add it.
+`!init` is an Avrae Command, not a user-made Alias, so there's no need to add it.  All official commands are listed in `!help`
 
 `!map !move !distance !tokenimport !go !view !se` can be found at [Map Utlities](https://avrae.io/dashboard/workshop/5f6a4623f4c89c324d6a5cd3)
 
@@ -32,6 +32,4 @@ Please edit this page or suggest in OTFBM Discord if there are other OTFBM relat
 
 ## OTFBM Discord
 
-An alternative method of adding aliases, though far more time consuming and repetitive, is to join the [OTFBM Discord](https://discord.gg/vdskRBp)
-
-Go to the `#command-spam` channel and type `!servalias` for the list of all aliases, and then `!servalias <alias>` to return the code of the desired alias. Copy that and return to your own server and type `!servalias <alias> <paste code>` to manually add the alias for your server. Remember that you need to have Administrator permissions or one of the roles "Server Aliaser" or "Dragonspeaker" to add server aliases.
+Join us at [OTFBM Discord](https://discord.gg/vdskRBp) for assistance using any of these aliases.  Ask for help in [#support-chat](https://discord.com/channels/712755105522385047/805952538024083477) after checking out the [rules](https://discord.com/channels/712755105522385047/1227475911796981871).
