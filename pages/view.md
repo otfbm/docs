@@ -34,7 +34,7 @@ You can also `!view` different parts of the map, which sets the top left corner 
 
 _*Example*_
 
-A 5x2 map view starting at **M3**
+A 5x4 map view starting at **M3**
 
 <!-- tabs:start -->
 
