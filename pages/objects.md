@@ -45,7 +45,7 @@ A pit scaled from A1 to D3
 #### **Discord**
 
 ```
-!map -mapsize 5x5 -object A1D3:open-pit
+!map -mapsize 5x5 -object A1D3:open
 ```
 
 #### **Url**
@@ -198,7 +198,7 @@ All of the available objects along with their codes. You can also use the shorth
 |![](https://otfbm.io/1x1/a1$li)| Lightning                            |`-object A1:lightning`          |`a1$li`|
 |![](https://otfbm.io/1x1/a1$mp)| Magic Portal                         |`-object A1:magic-portal`       |`a1$mp`|
 |![](https://otfbm.io/1x1/a1$ne)| Net                                  |`-object A1:net`                |`a1$ne`|
-|![](https://otfbm.io/1x1/a1$po)| Open Pit                             |`-object A1:open-pit`           |`a1$po`|
+|![](https://otfbm.io/1x1/a1$po)| Open Pit                             |`-object A1:open`               |`a1$po`|
 |![](https://otfbm.io/1x1/a1$pa)| Palisade                             |`-object A1:palisade`           |`a1$pa`|
 |![](https://otfbm.io/1x1/a1$pe)| Person                               |`-object A1:person`             |`a1$pe`|
 |![](https://otfbm.io/1x1/a1$pr)| Pillar Round                         |`-object A1:pillar-round`       |`a1$pr`|
