@@ -189,24 +189,24 @@ Setting several tokens of each size on the same grid.
 !map -t Mid|D4||o
 !map -t Large|E5|L|e
 !map -t Huge|G7|H|w
-!map -t Chonk|A7|G|r
+!map -t Chonkinator|A7|G|r
 ```
 
 or
 
 ```
-!map -t T1|B2|T|r -t T2|B2|T|g -t T3|B2|T|b -t Small|C3|S|y -t Mid|D4||o -t Large|E5|L|e -t Huge|G7|H|w -t Chonk|A7|G|r
+!map -t T1|B2|T|r -t T2|B2|T|g -t T3|B2|T|b -t Small|C3|S|y -t Mid|D4||o -t Large|E5|L|e -t Huge|G7|H|w -t Chonkinator|A7|G|r
 ```
 
 #### **Url**
 
 ```
-https://otfbm.io/B2Tr-T1/B2Tg-T2/B2Tb-T3/C3Sy-Small/D4Mo-Mid/E5Le-Large/G7Hw-Huge/A7Gr-Chonk
+https://otfbm.io/B2Tr-T1/B2Tg-T2/B2Tb-T3/C3Sy-Small/D4Mo-Mid/E5Le-Large/G7Hw-Huge/A7Gr-Chonkinator
 ```
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/B2Tr-T1/B2Tg-T2/B2Tb-T3/C3Sy-Small/D4Mo-Mid/E5Le-Large/G7Hw-Huge/A7Gr-Chonk)
+![](https://otfbm.io/B2Tr-T1/B2Tg-T2/B2Tb-T3/C3Sy-Small/D4Mo-Mid/E5Le-Large/G7Hw-Huge/A7Gr-Chonkinator)
 
 ## Token Colors
 
@@ -252,7 +252,7 @@ You can customize the names when you're adding creatures. Using `!i madd "Goblin
 
 The double quotes tell Avrae to see more than one word as the monster's name, so it will choose a Goblin Boss instead of a goblin. If you partial match a monster's name, `!i madd Gobl`, Avrae will PM you to ask which monster with `gobl` in their name you meant..
 
-Some liberties are taken for autonaming, particularly to keep labels fitting in the token. Tiny tokens only display two characters, taken from the first character and last character, meaning a character named Pixie2 will be labelled P2 on the token. Small and Medium tokens accept up to four characters, so Goblin3 will just be Gobl, making Gob# a generally better choice if there is more than one. Large token labels can be up to 9 characters long, Huge token labels can be up to 14 characters long, and Gargantuan token labels can be up to 18 characters long.
+Some liberties are taken for autonaming, particularly to keep labels fitting in the token. Tiny tokens only display two characters, taken from the first character and last character, meaning a character named Pixie2 will be labelled P2 on the token. Small and Medium tokens accept up to four characters, so Goblin3 will just be Gobl, making Gob# a generally better choice if there is more than one. Large token labels can be up to 9 characters long, Huge token labels can be up to 14 characters long, and Gargantuan token labels can be up to 18 characters long, though 10-11 is more practical.
 
 _*Example*_
 
