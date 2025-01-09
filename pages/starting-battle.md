@@ -92,7 +92,7 @@ https://otfbm.io/E7Mr-GO2/D4Mr-GO1/A1Mr-GO3
 
 ## Removing Combatants
 
-Things are gonna die in battle, obviously. You can remove dead or retreated combatants from the map with `I remove <token_name>`. Technically this is an `!init` command, but most folks don't want to go all the way [over here](https://avrae.readthedocs.io/en/latest/cheatsheets/dm_combat.html#removing-from-combat) so we're including it here for completeness. You should really check out the [Avrae docs](https://avrae.readthedocs.io/en/latest/index.html) too though if you haven't already.
+Things are gonna die in battle, obviously. You can remove dead or retreated combatants from the map with `!i remove <token_name>`. Technically this is an `!init` command, but most folks don't want to go all the way [over here](https://avrae.readthedocs.io/en/latest/cheatsheets/dm_combat.html#removing-from-combat) so we're including it here for completeness. You should really check out the [Avrae docs](https://avrae.readthedocs.io/en/latest/index.html) too though if you haven't already.
 
 _*Example*_
 
