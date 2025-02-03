@@ -1,4 +1,5 @@
 - [Aliases](/pages/aliases.md)
+- [Image Hosts](/pages/image-hosts.md)
 - [Starting Battle](/pages/starting-battle.md)
   - [Init](/pages/starting-battle.md?id=init)
   - [Adding the Map](/pages/starting-battle.md?id=adding-the-map)
