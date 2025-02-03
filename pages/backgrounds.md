@@ -1,4 +1,4 @@
-**Imgur.com is not a reliable host anymore. A solution is being worked on, and workarounds are availble on Discord**
+**[Check here for updated lists of working image hosts](/pages/image-hosts)**
 
 # Background Images
 
@@ -13,20 +13,20 @@ A 25x20 map with the provided Forest background
 #### **Discord**
 
 ```
-!map -bg https://i.imgur.com/9aG2VlY.jpg
+!map -bg https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg
 ```
 
 #### **Url**
 
 ```
-https://otfbm.io/25x20?bg=https://i.imgur.com/9aG2VlY.jpg
+https://otfbm.io/25x20?bg=https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg
 ```
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/25x20?bg=https://i.imgur.com/9aG2VlY.jpg)
+![](https://otfbm.io/25x20?bg=https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg)
 
-It is very important to remember that the url must have an extension, and that extension must be jpg, jpeg, gif, or png. OTFBM does not support webp as of yet. Ironically enough, Imgur is a host notorious for removing extensions in their links, ~~so the recommended method is typically to upload the map as an attachment in Discord and then using the resulting CDN link for the alias.~~ currently we recommend using imgbb.com as they provide clean urls for OTFBM.
+It is very important to remember that the url must have an extension, and that extension must be jpg, jpeg, gif, or png. OTFBM does not support webp as of yet. A list of working and non-working image hosting sites is available [here](/pages/image-hosts).
 
 It is a rare but joyous occasion when you add a background and it fits perfectly. For all those other times, there are ways to fix it.
 
@@ -43,18 +43,18 @@ The Forest map offset 30px right and 20px down
 #### **Discord**
 
 ```
-!map -bg https://i.imgur.com/9aG2VlY.jpg -options o30:20`
+!map -bg https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg -options o30:20`
 ```
 
 #### **Url**
 
 ```
-https://otfbm.io/@o30:20/25x20?bg=https://i.imgur.com/9aG2VlY.jpg
+https://otfbm.io/@o30:20/25x20?bg=https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg
 ```
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/@o30:20/25x20?bg=https://i.imgur.com/9aG2VlY.jpg)
+![](https://otfbm.io/@o30:20/25x20?bg=https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg)
 
 ## Cell Size
 
@@ -69,18 +69,18 @@ The Forest map with 60px cells
 #### **Discord**
 
 ```
-!map -bg https://i.imgur.com/9aG2VlY.jpg -options c60
+!map -bg https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg -options c60
 ```
 
 #### **Url**
 
 ```
-https://otfbm.io/@c60/25x20?bg=https://i.imgur.com/9aG2VlY.jpg
+https://otfbm.io/@c60/25x20?bg=https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg
 ```
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/@c60/25x20?bg=https://i.imgur.com/9aG2VlY.jpg)
+![](https://otfbm.io/@c60/25x20?bg=https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg)
 
 ## Ready to Use Maps
 
@@ -96,40 +96,40 @@ The following can be used as a background, just paste the url after `!map -bg `.
 
 Note this is the same list that is generated when running `!map maplist`.
 
-**Forest** - `https://i.imgur.com/9aG2VlY.jpg`
+**Forest** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest.jpeg`
 
-**Desert** - `https://i.imgur.com/65k1rE4.jpg`
+**Desert** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/desert.jpeg`
 
-**Ship Foredeck** - `https://i.imgur.com/5ODcwpV.jpg`
+**Ship Foredeck** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/ship-fd.jpeg`
 
-**Ship Maindeck** - `https://i.imgur.com/YlPvZzZ.jpg`
+**Ship Maindeck** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/ship-md.jpeg`
 
-**Ship Upperdeck** - `https://i.imgur.com/NM5qPmS.jpg`
+**Ship Upperdeck** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/ship-ud.jpeg`
 
-**Winter Forest** - `https://i.imgur.com/Kiasj9W.jpg`
+**Winter Forest** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/forest-win.jpeg`
 
-**Market Square** - `https://i.imgur.com/FJd0Iv0.jpg`
+**Market Square** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/market.jpeg`
 
-**Basic Dungeon Floor** - `https://i.imgur.com/mxbQmxY.jpg`
+**Basic Dungeon Floor** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/tiles.jpeg`
 
-**Graveyard** - `https://i.imgur.com/z3vLqEQ.jpg`
+**Graveyard** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/graveyard.jpeg`
 
-**Haunted Cemetary** - `https://i.imgur.com/HQl9k5o.jpg`
+**Haunted Cemetary** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/haunted.jpeg`
 
-**Haunted Cathedral** - `https://i.imgur.com/5faalf2.jpg`
+**Haunted Cathedral** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/cathedral.jpeg`
 
-**Grassy Field** - `https://i.imgur.com/Zx2jHDC.jpg`
+**Grassy Field** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/field.jpeg`
 
-**Dragons Lair** - `https://i.imgur.com/PplwMVB.jpg`
+**Dragons Lair** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/lair.jpeg`
 
-**Rocky Path** - `https://i.imgur.com/O2tMCFC.jpg`
+**Rocky Path** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/mountains.jpeg`
 
-**Cellar** - `https://i.imgur.com/BhA8JQs.jpg`
+**Cellar** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/cellar.jpeg`
 
-**Main Floor Inn** - `https://i.imgur.com/jIpAjkT.jpg`
+**Main Floor Inn** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/inn.jpeg`
 
-**City Jail** - `https://i.imgur.com/Eh3IEQb.jpg`
+**City Jail** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/jail.jpeg`
 
-**Boat** - `https://i.imgur.com/9aYJJ3u.jpg`
+**Boat** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/boat.jpeg`
 
-**Underground Fight Pit** - `https://i.imgur.com/WgZSt8g.jpg`
+**Underground Fight Pit** - `https://raw.githubusercontent.com/otfbm/img/refs/heads/main/pit.jpeg`
