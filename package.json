@@ -1,6 +1,6 @@
 {
   "name": "@otfbm/docs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "docsify-cli": "^4.4.1"
+    "docsify-cli": "^4.4.2"
   },
   "dependencies": {
     "docsify": "^4.13.1",
