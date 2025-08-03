@@ -67,6 +67,8 @@ _*Example*_
 
 Adding three goblins to the map
 
+Please note, it is GO, not G0. The letter not the number.
+
 <!-- tabs:start -->
 
 #### **Discord**
