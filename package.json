@@ -11,11 +11,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "docsify-cli": "^4.4.1"
+    "docsify-cli": "^4.4.2"
   },
   "dependencies": {
     "docsify": "^4.13.1",
-    "docsify-tabs": "^1.6.1",
+    "docsify-tabs": "^1.6.3",
     "tablefilter": "^0.7.2"
+  },
+  "overrides": {
+    "docsify": {
+      "marked": "^17.0.0"
+    },
+    "docsify-cli": {
+      "got": "^15.0.0"
+    }
   }
 }
