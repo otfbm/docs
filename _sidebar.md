@@ -20,6 +20,7 @@
   - [Circles](/pages/overlays?id=circles)
   - [Cones](/pages/overlays?id=cones)
   - [Lines](/pages/overlays?id=lines)
+  - [Rectangles](/pages/overlays?id=rectangles)
   - [Squares](/pages/overlays?id=squares)
   - [Underlays](/pages/overlays?id=underlays)
   - [Targetting](/pages/overlays?id=targetting)

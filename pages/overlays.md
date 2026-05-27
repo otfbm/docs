@@ -20,7 +20,7 @@ A red arrow starting at A1 and ending at G4 where a red token is.
 
 #### **Url**
 
-An arrow: `*a` followed by `<color><start_point><end _point>`
+An arrow: `*a` followed by `<color><start_point><end_point>`
 
 ```
 https://otfbm.io/*aRa1g4/g4r/
@@ -28,7 +28,7 @@ https://otfbm.io/*aRa1g4/g4r/
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/*aRa1g4/g4r/)
+![A red arrow drawn from A1 to G4](https://otfbm.io/*aRa1g4/g4r/)
 
 ## Circles
 
@@ -62,7 +62,7 @@ https://otfbm.io/*c20rd5
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/*c20rd5)
+![A red circle centered on D5](https://otfbm.io/*c20rd5)
 
 A yellow circle drawn down and to the right with F2 at the top left corner
 
@@ -84,7 +84,7 @@ https://otfbm.io/*ct10yf2
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/*ct10yf2)
+![A yellow circle centered on the top left corner of it's total space](https://otfbm.io/*ct10yf2)
 
 A green 25ft circle centered on the top left grid intersection of H9 with a large Ogre, maybe it's an aura of stench
 
@@ -108,7 +108,7 @@ https://otfbm.io/10x10/G8Lr-OG1/*co25gh9
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/10x10/G8Lr-OG1/*co25gh9)
+![An ogre with an aura](https://otfbm.io/10x10/G8Lr-OG1/*co25gh9)
 
 ## Cones
 
@@ -138,25 +138,29 @@ https://otfbm.io/*t30ba5e5/A5b-DR1
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/*t30ba5e5/A5b-DR1)
+![A dragon using it's breath weapon](https://otfbm.io/*t30ba5e5/A5b-DR1)
 
 ## Lines
 
 Lines are used for lightning bolts or other similar spell effects. They are defined by `<length>`, `<width>`, `<color>`, `<topleft>`, and `<direction>`. Length indicates how long the line is, width is how wide it is, color is what color it should render as, topleft is where the line originates, and direction tells it which direction to go.
+
+_*Example*_
+
+A wizard casting a lightning bolt, or any other spell that draws a line, targetting b2 to draw it directly diagonally.
 
 <!-- tabs:start -->
 
 #### **Discord**
 
 ```
-!i add "Wizard" 0
+!i add 0 "Wizard"
 !map -t Wiz -move A1
 !map -over line,30,5,g,a1,b2
 ```
 
 #### **Url**
 
-`*l` line `30` length `,5` width `g` color `a1` start coordinate `b2` direction coordinate
+`*l` line `30` length `5` width `g` color `a1` start coordinate `b2` direction coordinate
 
 ```
 https://otfbm.io/*l30,5ga1b2/A1g-Wiz
@@ -164,47 +168,164 @@ https://otfbm.io/*l30,5ga1b2/A1g-Wiz
 
 <!-- tabs:end -->
 
-![](https://otfbm.io/*l30,5ga1b2/A1g-Wiz)
+![A wizard standing at A1 casting a lightning bolt targetting B2](https://otfbm.io/*l30,5ga1b2/A1g-Wiz)
+
+# Rectangles
+
+Rectangles can also be drawn with `line`, just remember that they start from the target coordinate and expand outward in 5 ft increments from the _center_ of the coordinate. Note that the width is set to 25ft in this example to cover the five squares, as 20 ft would half cover the top and bottom cells the rectangle overlaps:
+
+_*Example*_
+
+A wizard standing in an arbitrarily drawn rectangle.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!i add 0 "Wizard"
+!map -t Wiz -move A1
+!map -over line,45,25,y,a4,j4
+```
+
+#### **Url**
+
+`*l` line `45` length `25` width `y` color `a4` start coordinate `j4` direction coordinate
+
+```
+https://otfbm.io/*l45,25ya4j4/E5g-Wiz
+```
+
+<!-- tabs:end -->
+
+![A wizard standing in an arbitrarily drawn rectangle](https://otfbm.io/*l45,25ya4j4/E5g-Wiz)
 
 ## Squares
 
+Squares can be drawn by size or by starting and end points. They are defined by `<size>`, `<color>`, `<top_left>`, and an optional `<aim>`. Size is how many square feet it is, color determines color, top left determines where it is drawn from, and aim will rotate the square's rightmost face towards the target cell or token.
+
+_*Example*_
+
+A wizard standing in a square overlay centered on the token.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
 ```
-https://otfbm.io/*s30ca1b2
+!i add 0 "Wizard"
+!map -t Wiz -move E5
+!map -over square,25,b,c3
 ```
 
-![](https://otfbm.io/*s30ca1b2)
+#### **Url**
 
-`*s` square `30` size `c` _colour_ `a1` start co-ordinate `b2` direction co-ordinate
+`*s` square `25` color `b` start co-ordinate `c3`.
 
 Alternatively use `*st` to anchor the square at the top left. (Or don't specify the direction co-ordinate.)
 
 ```
-https://otfbm.io/*a10pD3E5
+https://otfbm.io/10x10/E5g-Wiz/*s25bC3
 ```
 
-![](https://otfbm.io/*a10pD3E5)
+<!-- tabs:end -->
 
-`*a` arrow `10` size `p` _colour_ `d3` start co-ordinate `e5` direction co-ordinate
+![A blue square centered on a wizard](https://otfbm.io/10x10/E5g-Wiz/*s25bC3)
 
-## Putting Overlays under the Token layer (Underlays)
+To rotate the square into a diamond, target a direct diagonal cell from the starting cell. You can arbitrarily rotate the square by targetting any cell, but a diamond is achieved this way.
 
-In some cases you may have a need to put an overlay under tokens. Use `u` after the `*` to signify placing the item under the token layer. (an example would be the Grease spell.)
+_*Example*_
 
-**_Example_**
+A yellow square rotated into a diamond by targetting a direct diagonal cell from it's origin.
 
-A red 20 ft radius circle overlay example.
+<!-- tabs:start -->
 
-```
-https://otfbm.io/*c20rd5/d5-Bard
-```
-
-![](https://otfbm.io/*c20rd5/d5-Bard)
-
-
-A red 20 ft radius circle overlay example with `u` designation.
+#### **Discord**
 
 ```
-https://otfbm.io/*uc20rd5/d5-Bard
+!map -over square,25,b,c3,h8
 ```
 
-![](https://otfbm.io/*uc20rd5/d5-Bard)
+#### **Url**
+
+`*s` square `25` color `b` start co-ordinate `c3` direction co-ordinate `h8`
+
+Alternatively use `*st` to anchor the square at the top left. (Or don't specify the direction co-ordinate.)
+
+```
+https://otfbm.io/10x10/E5gWiz/*s25bC3h8
+```
+
+<!-- tabs:end -->
+
+![A yellow square rotated into a diamond](https://otfbm.io/10x10/E5g-Wiz/*s25bC3h8)
+
+## Underlays
+
+You may notice all the overlays sit on top of the token, which may not make sense for something like Grease or Entangle that would logically be under the tokens.  For that we have underlays.  Any shape works, you just use `-under` instead of `-over`
+
+_*Example*_
+
+A paladin's aura barely reaching a bard ally. Your DM may decide that doesn't count as in range, or they may because the bard is touched by it.  Now you can visualize it while arguing about it.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!i add 0 Bard
+!i add 0 Paladin
+!map -t Bard -move e5 -t Paladin -move g6
+!map -under circle,10,b,g6
+```
+
+#### **Url**
+
+`*c` = circle, `10` = diameter, `b` = color, `g6` center coordinate
+
+```
+http://otfbm.io/10x10/E5Mr-Bard/G6Mr-Paladin/*uc10bg6
+```
+
+<!-- tabs:end -->
+
+![A paladin's aura barely reaching a bard ally](http://otfbm.io/10x10/E5Mr-Bard/G6Mr-Paladin/*uc10bg6)
+
+## Targetting
+
+These quick overlays only last for one map draw. The next time the map is updated, it will disappear. To make your overlay persist, add a target.
+
+Use `{aim}` in your `-over` command to set the target. You can target both cells (A3) and tokens (GO1, GaryGoblin). `-t` will stick the overlay to a token so it persists as long as the token does in combat. For most persistent spells you'll want to stick the overlay to the spell's caster so the effect ends when they do.
+
+_*Example*_
+
+A druid casts Moonbeam, targetting a group of zombies with ZO1 being the direct target. To move it, on their next turn the druid can just use `!map -over circle,5,y,{aim} -aim <coordinate>` and reroll damage.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!i add 0 Druid
+!i madd "Zombie" -n 3
+!map -t Druid -move d2 -color b
+!map -t ZO1 -move f4
+!map -t ZO2 -move e5
+!map -t ZO3 -move g5
+!cast "Moonbeam" -t ZO1
+!map -over circle,5,y,{aim} -aim f5 -t Druid
+```
+
+#### **Url**
+
+Note that when directly editing the url, there is no way to save the overlay as there is with the Discord alias. To move the moonbeam, you must manually change the center coordinate to the desired location.
+
+`*c` = circle, `5` = diameter, `y` = color, `f5` center coordinate
+
+```
+https://otfbm.io/10x10/F4Mr-ZO1/D2Mb-Druid/E5Mr-ZO2/G5Mr-ZO3/*c5yf5
+```
+
+<!-- tabs:end -->
+
+![A druid casts Moonbeam on three zombies](https://otfbm.io/10x10/F4Mr-ZO1/D2Mb-Druid/E5Mr-ZO2/G5Mr-ZO3/*c5yf5)
