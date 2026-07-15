@@ -24,6 +24,7 @@
   - [Squares](/pages/overlays?id=squares)
   - [Underlays](/pages/overlays?id=underlays)
   - [Targetting](/pages/overlays?id=targetting)
+  - [Removing](/pages/overlays?id=removing)
 - [Background Images](/pages/backgrounds.md)
   - [Background Offset](/pages/backgrounds.md?id=background-offset)
   - [Cell Size](/pages/backgrounds.md?id=cell-size)
