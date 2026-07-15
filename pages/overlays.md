@@ -329,3 +329,39 @@ https://otfbm.io/10x10/F4Mr-ZO1/D2Mb-Druid/E5Mr-ZO2/G5Mr-ZO3/*c5yf5
 <!-- tabs:end -->
 
 ![A druid casts Moonbeam on three zombies](https://otfbm.io/10x10/F4Mr-ZO1/D2Mb-Druid/E5Mr-ZO2/G5Mr-ZO3/*c5yf5)
+
+## Removing
+
+To remove a persisting overlay, use `!map -over none -t <name>`
+
+_*Example*_
+
+The druid has cancelled the Moonbeam spell.
+
+<!-- tabs:start -->
+
+#### **Discord**
+
+```
+!i add 0 Druid
+!i madd "Zombie" -n 3
+!map -t Druid -move d2 -color b
+!map -t ZO1 -move f4
+!map -t ZO2 -move e5
+!map -t ZO3 -move g5
+!cast "Moonbeam" -t ZO1
+!map -over circle,5,y,{aim} -aim f5 -t Druid
+!map -over none -t Druid
+```
+
+#### **Url**
+
+Just remove the `*c5yf5` component from the url.
+
+```
+https://otfbm.io/10x10/F4Mr-ZO1/D2Mb-Druid/E5Mr-ZO2/G5Mr-ZO3
+```
+
+<!-- tabs:end -->
+
+![A druid casts Moonbeam on three zombies](https://otfbm.io/10x10/F4Mr-ZO1/D2Mb-Druid/E5Mr-ZO2/G5Mr-ZO3)
