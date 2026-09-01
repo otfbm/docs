@@ -14,7 +14,7 @@
     "docsify-cli": "^4.4.2"
   },
   "dependencies": {
-    "docsify": "^4.13.1",
+    "docsify": "^5.0.0",
     "docsify-tabs": "^1.6.3",
     "tablefilter": "^0.7.2"
   },
